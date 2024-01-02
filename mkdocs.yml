@@ -2,8 +2,8 @@ site_name: "Learning Book"
 site_url:
 
 theme:
-    logo: .media/tree.png
-    favicon: .media/tree.png
+    logo: media/tree.png
+    favicon: media/tree.png
     name: material
     font:
         text: Roboto
