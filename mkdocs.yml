@@ -1,12 +1,12 @@
-site_name: ""
-site_url: 
+site_name: "ecamo19's Learning Book"
+site_url:
 
 theme:
-    name: united  
+    name: united
     palette:
         scheme: slate
     nav_style: dark
-    
+
 plugins:
   - mkdocs-jupyter
 
