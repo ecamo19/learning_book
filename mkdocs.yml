@@ -1,12 +1,50 @@
-site_name: "ecamo19's Learning Book"
+site_name: "Learning Book"
 site_url:
 
 theme:
-    name: united
+    name: material
+    font:
+        text: Roboto
+    language: en
+    features:
+        - navigation.tabs
+        - navigation.top
+        - search.suggest
+        - search.highlight
+        - content.tabs.link
+        - content.code.annotation
+        - content.code.copy
+
     palette:
-        scheme: slate
+        scheme: default
+        primary: amber
+        accent: purple
+
     nav_style: dark
 
 plugins:
   - mkdocs-jupyter
+  - social
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/ecamo19
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.mark
+  - attr_list
 
