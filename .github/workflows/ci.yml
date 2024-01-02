@@ -1,8 +1,8 @@
-name: ci 
+name: ci
 on:
   push:
     branches:
-      #- master 
+      #- master
       - main
 permissions:
   contents: write
@@ -21,4 +21,5 @@ jobs:
       - run: pip install mkdocs-material
       - run: pip install pillow cairosvg
       - run: pip install mkdocs-glightbox
+      - run: pip install mkdocs-jupyter==0.16.1
       - run: mkdocs gh-deploy --force
