@@ -39,7 +39,8 @@ FROM movies;
 Restrict query results 
 
 ```sql
-SELECT DISTINCT genre
-FROM movies;
+SELECT *
+FROM movies
+WHERE imdb_rating  > 8;
 ```
 
