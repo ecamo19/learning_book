@@ -66,3 +66,12 @@ SELECT *
 FROM movies
 WHERE name LIKE 'A%';
 ```
+
+... or end with
+
+
+```sql
+SELECT *
+FROM movies
+WHERE name LIKE '%A'
+```
