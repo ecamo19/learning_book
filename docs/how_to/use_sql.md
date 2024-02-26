@@ -59,6 +59,10 @@ WHERE name LIKE 'Se_en'
 
 #### WHERE LIKE with %
 
-```sql
+Read % as: Filter values that start with
 
+```sql
+SELECT *
+FROM movies
+WHERE name LIKE
 ```
