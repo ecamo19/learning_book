@@ -44,3 +44,5 @@ FROM movies
 WHERE imdb_rating  > 8;
 ```
 
+### WHERE LIKE
+
