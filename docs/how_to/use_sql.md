@@ -19,8 +19,11 @@ FROM movies
 ```
 
 
+## DISTINCT
 
+Return the unique values in a column
 
 ```sql
-
+SELECT DISTINCT genre
+FROM movies;
 ```
