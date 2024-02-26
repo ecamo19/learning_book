@@ -1,9 +1,9 @@
 
-# Install SQLite
+# Open a database
 
 
-```python
-
+```sql
+sqlite3 database name
 ```
 
 
