@@ -51,5 +51,5 @@ Operator when you want to compare similar values.
 ```sql
 SELECT *
 FROM movies
-WHERE name li
+WHERE name LIKE 'Se_en'
 ```
