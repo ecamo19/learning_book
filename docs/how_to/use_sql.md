@@ -2,7 +2,7 @@
 ## Basic Queries
 
 
-Shows the database schema
+### Shows the database schema
 ```sql
 .shema
 ```
