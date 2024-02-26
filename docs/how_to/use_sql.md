@@ -1,9 +1,9 @@
 
-```python
-def sum(a,b):
-	return a + b
+# Install SQLite
 
-print(sum(3,1))
+
+```python
+
 ```
 
 
