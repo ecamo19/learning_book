@@ -9,7 +9,8 @@ FROM movies;
 
 
 ```sql
-SELECT column
+SELECT column_1, cloumn_2
+FROM movies;
 ```
 
 ```sql
