@@ -80,6 +80,7 @@ WHERE name LIKE '%A'
 
 ```sql
 SELECT *
-
+FROM movies
+WHERE name LIKE '%man%'
 ```
 
