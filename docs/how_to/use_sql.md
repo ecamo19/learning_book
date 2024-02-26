@@ -46,3 +46,10 @@ WHERE imdb_rating  > 8;
 
 ### WHERE LIKE
 
+Operator when you want to compare similar values.
+
+```sql
+SELECT *
+FROM movies
+WHERE name li
+```
