@@ -46,7 +46,8 @@ WHERE imdb_rating  > 8;
 
 ### WHERE LIKE
 
-Operator when you want to compare similar values.
+Operator when you want to compare similar values. In the example above a string of 
+
 
 ```sql
 SELECT *
