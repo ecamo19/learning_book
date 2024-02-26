@@ -3,7 +3,8 @@
 
 
 ```sql
-sqlite3 database name
+SELECT *
+FROM movies;
 ```
 
 
