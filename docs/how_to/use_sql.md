@@ -24,7 +24,6 @@ SELECT name AS 'titles'
 FROM movies
 ```
 
-
 ## DISTINCT
 
 Return the unique values in a column
@@ -46,13 +45,20 @@ WHERE imdb_rating  > 8;
 
 ### WHERE LIKE
 
-Operator when you want to compare similar values. In the example below a string of 5 characters that start with Se and end with en and that has one unknown character will be searched i.e(Se7en or Seven)
-
 #### WHERE LIKE with _
+
+Operator when you want to compare similar values. In the example below a string of 5 
+characters that start with Se and end with en and that has one unknown character will be searched i.e(Se7en or Seven)
+
+
 ```sql
 SELECT *
 FROM movies
 WHERE name LIKE 'Se_en'
 ```
 
-#### WHERE LIKE with 
+#### WHERE LIKE with %
+
+```sql
+
+```
