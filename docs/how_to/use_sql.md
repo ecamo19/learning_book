@@ -64,5 +64,5 @@ Read % as: Filter values that start with
 ```sql
 SELECT *
 FROM movies
-WHERE name LIKE
+WHERE name LIKE 'A%';
 ```
