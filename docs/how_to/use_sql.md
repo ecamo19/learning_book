@@ -2,6 +2,10 @@
 # Basic Queries
 
 
+Shows the database schema
+```sql
+.shema
+```
 
 
 ```sql
