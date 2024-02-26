@@ -75,3 +75,11 @@ SELECT *
 FROM movies
 WHERE name LIKE '%A'
 ```
+
+... or contain
+
+```sql
+SELECT *
+
+```
+
