@@ -1,5 +1,5 @@
 
-# Basic Queries
+## Basic Queries
 
 
 Shows the database schema
@@ -24,7 +24,7 @@ SELECT name AS 'titles'
 FROM movies
 ```
 
-## DISTINCT
+### DISTINCT
 
 Return the unique values in a column
 
@@ -33,7 +33,7 @@ SELECT DISTINCT genre
 FROM movies;
 ```
 
-## WHERE
+### WHERE
 
 Restrict query results 
 
@@ -43,9 +43,9 @@ FROM movies
 WHERE imdb_rating  > 8;
 ```
 
-### WHERE LIKE
+#### WHERE LIKE
 
-#### WHERE LIKE with _
+##### WHERE LIKE with _
 
 Operator when you want to compare similar values. In the example below a string of 5 
 characters that start with Se and end with en and that has one unknown character will be searched i.e(Se7en or Seven)
@@ -57,7 +57,7 @@ FROM movies
 WHERE name LIKE 'Se_en'
 ```
 
-#### WHERE LIKE with %
+##### WHERE LIKE with %
 
 Read % as: Filter values that start with
 
