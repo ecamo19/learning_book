@@ -2,6 +2,8 @@
 # Basic Queries
 
 
+
+
 ```sql
 SELECT *
 FROM movies;
