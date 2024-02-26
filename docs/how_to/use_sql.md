@@ -48,9 +48,11 @@ WHERE imdb_rating  > 8;
 
 Operator when you want to compare similar values. In the example below a string of 5 characters that start with Se and end with en and that has one unknown character will be searched i.e(Se7en or Seven)
 
-
+#### WHERE LIKE with _
 ```sql
 SELECT *
 FROM movies
 WHERE name LIKE 'Se_en'
 ```
+
+#### WHERE LIKE with 
