@@ -1,5 +1,5 @@
 
-# Open a database
+# Queries
 
 
 ```sql
