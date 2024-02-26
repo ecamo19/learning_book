@@ -33,3 +33,13 @@ Return the unique values in a column
 SELECT DISTINCT genre
 FROM movies;
 ```
+
+## WHERE
+
+Restrict query results 
+
+```sql
+SELECT DISTINCT genre
+FROM movies;
+```
+
