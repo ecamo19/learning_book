@@ -46,7 +46,7 @@ WHERE imdb_rating  > 8;
 
 ### WHERE LIKE
 
-Operator when you want to compare similar values. In the example above a string of 
+Operator when you want to compare similar values. In the example above a string of 5 characters that start with Se and end with en will be s
 
 
 ```sql
