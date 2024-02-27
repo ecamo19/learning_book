@@ -136,3 +136,10 @@ limit 3;
 ### CASE
 
  It is SQL’s way of handling if-then logic.
+
+```sql
+SELECT name,
+CASE
+
+
+```
