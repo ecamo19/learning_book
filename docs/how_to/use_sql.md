@@ -132,3 +132,5 @@ FROM movies
 ORDER BY imdb_rating DESC
 limit 3;
 ```
+
+### CASE
