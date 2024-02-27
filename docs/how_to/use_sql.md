@@ -85,10 +85,18 @@ FROM movies
 WHERE name LIKE '%man%';
 ```
 
-#### IS NULL
+##### IS NULL
 
 ```sql
 SELECT name
 FROM movies
 WHERE imdb_rating IS NOT NULL;
+
+```
+
+
+##### BETWEEN
+```sql
+SELECT *
+
 ```
