@@ -98,5 +98,6 @@ WHERE imdb_rating IS NOT NULL;
 ##### BETWEEN
 ```sql
 SELECT *
-
+FROM movies
+WHERE name BETWEEN 'A' AND 'J';
 ```
