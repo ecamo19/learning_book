@@ -140,6 +140,7 @@ limit 3;
 ```sql
 SELECT name,
 CASE
-
+WHEN genre = 'romance' THEN 'chill'
+WHEN genre = 'romance' THEN 'chill'
 
 ```
