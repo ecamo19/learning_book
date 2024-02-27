@@ -114,5 +114,6 @@ WHERE year > 1985
 ```sql
 SELECT *
 FROM movies
-WHERE
+WHERE year > 2014
+	OR genre = 'action';
 ```
