@@ -120,5 +120,7 @@ WHERE year > 2014
 ### ORDER BY
 
 ```sql
-SELE
+SELECT *
+FROM movies
+ORDER BY name;
 ```
