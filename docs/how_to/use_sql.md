@@ -147,3 +147,5 @@ END AS 'Mood'
 FROM movies;
 
 ```
+
+## AGGREGATE FUNCTIONS
