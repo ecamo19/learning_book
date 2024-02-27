@@ -107,5 +107,5 @@ WHERE name BETWEEN 'A' AND 'J';
 SELECT * 
 FROM movies 
 WHERE year > 1985
-	AND gen > 8;
+	AND genre == 'horror';
 ```
