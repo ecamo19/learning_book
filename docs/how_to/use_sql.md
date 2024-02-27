@@ -84,3 +84,4 @@ FROM movies
 WHERE name LIKE '%man%'
 ```
 
+#### IS NULL
