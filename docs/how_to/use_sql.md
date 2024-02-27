@@ -106,6 +106,6 @@ WHERE name BETWEEN 'A' AND 'J';
 ```sql
 SELECT * 
 FROM movies 
-WHERE year BETWEEN 1970 AND 1979
-	AND imdb_rating >
+WHERE year > 1985
+	AND gen > 8;
 ```
