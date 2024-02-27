@@ -85,3 +85,9 @@ WHERE name LIKE '%man%'
 ```
 
 #### IS NULL
+
+```sql
+SELECT name
+FROM movies
+WHERE imdb_rating LIKE '%man%'
+```
