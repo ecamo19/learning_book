@@ -143,6 +143,6 @@ CASE
 WHEN genre = 'romance' THEN 'Chill'
 WHEN genre = 'comedy' THEN  'Chill'
 ELSE 'Intense'
-END AS 
+END AS 'Mood'
 
 ```
