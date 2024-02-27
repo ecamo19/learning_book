@@ -101,3 +101,5 @@ SELECT *
 FROM movies
 WHERE name BETWEEN 'A' AND 'J';
 ```
+
+##### AND
