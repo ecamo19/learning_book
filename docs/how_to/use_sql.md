@@ -120,7 +120,14 @@ WHERE year > 2014
 ### ORDER BY
 
 ```sql
+SELECT name, year, imdb_rating
+FROM movies
+ORDER BY imdb_rating DESC;
+```
+
+### LIMIT
+```sql
 SELECT *
 FROM movies
-ORDER BY name;
+LIMIT 10;
 ```
