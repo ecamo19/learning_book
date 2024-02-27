@@ -109,3 +109,10 @@ FROM movies
 WHERE year > 1985
 	AND genre == 'horror';
 ```
+
+##### OR
+```sql
+SELECT *
+FROM movies
+WHERE
+```
