@@ -129,5 +129,6 @@ ORDER BY imdb_rating DESC;
 ```sql
 SELECT *
 FROM movies
-LIMIT 10;
+ORDER BY imdb_rating DESC
+limit 3;
 ```
