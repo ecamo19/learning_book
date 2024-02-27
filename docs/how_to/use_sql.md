@@ -19,9 +19,10 @@ SELECT column_1, column_2
 FROM movies;
 ```
 
+ Rename column
 ```sql
 SELECT name AS 'titles'
-FROM movies
+FROM movies;
 ```
 
 ### DISTINCT
@@ -54,7 +55,7 @@ characters that start with Se and end with en and that has one unknown character
 ```sql
 SELECT *
 FROM movies
-WHERE name LIKE 'Se_en'
+WHERE name LIKE 'Se_en';
 ```
 
 ##### WHERE LIKE with %
@@ -73,7 +74,7 @@ WHERE name LIKE 'A%';
 ```sql
 SELECT *
 FROM movies
-WHERE name LIKE '%A'
+WHERE name LIKE '%A';
 ```
 
 ... or contain
@@ -81,7 +82,7 @@ WHERE name LIKE '%A'
 ```sql
 SELECT *
 FROM movies
-WHERE name LIKE '%man%'
+WHERE name LIKE '%man%';
 ```
 
 #### IS NULL
@@ -89,5 +90,5 @@ WHERE name LIKE '%man%'
 ```sql
 SELECT name
 FROM movies
-WHERE imdb_rating LIKE '%man%'
+WHERE imdb_rating IS NOT NULL;
 ```
