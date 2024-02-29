@@ -178,7 +178,8 @@ FROM fake_apps;
 ```
 
 ```sql
-
+SELECT MIN(downloads)
+FROM fake_apps;
 ```
 
 ```sql
