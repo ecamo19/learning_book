@@ -169,5 +169,9 @@ FROM fake_apps;
 ```
 
 ### MAX/MIN
-```
+
+Return the highest and lowest values in a column, respectively.
+
+```sql
+
 ```
