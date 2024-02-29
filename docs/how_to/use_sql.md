@@ -223,7 +223,9 @@ GROUP BY 1, 2;
 
 ### Having
 
-IF  we want to filter groups
+If  we want to filter groups.
+
+
 
 ```sql
 
