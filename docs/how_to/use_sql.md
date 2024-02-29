@@ -200,7 +200,10 @@ FROM fake_apps;
 ### Group By
 
 ```sql
-
+SELECT category, SUM(downloads)
+FROM fake_apps
+WHERE downloads > 20000
+GROUP BY price;
 ```
 
 ```sql
