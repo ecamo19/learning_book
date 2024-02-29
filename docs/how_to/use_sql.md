@@ -193,8 +193,8 @@ Rounds the values in the column to the number of decimal places specified by the
 
 
 ```sql
-
-
+SELECT name, ROUND(price, 0)
+FROM fake_apps;
 ```
 
 ```sql
