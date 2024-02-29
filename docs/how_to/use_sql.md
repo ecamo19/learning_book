@@ -173,10 +173,73 @@ FROM fake_apps;
 Return the highest and lowest values in a column, respectively.
 
 ```sql
+SELECT MAX(downloads)
+FROM fake_apps;
+```
+
+```sql
 
 ```
 
+```sql
 
+```
+
+```sql
+
+```
+
+```sql
+
+```
+
+```sql
+
+```
+
+```sql
+
+```
+
+```sql
+
+```
+
+```sql
+
+```
+
+```sql
+
+```
+
+```sql
+
+```
+
+```sql
+
+```
+
+```sql
+
+```
+
+```sql
+
+```
+
+```sql
+
+```
+
+```sql
+
+```
+
+```sql
+
+```
 
 ```sql
 
