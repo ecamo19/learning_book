@@ -197,6 +197,8 @@ SELECT name, ROUND(price, 0)
 FROM fake_apps;
 ```
 
+### Group By
+
 ```sql
 
 ```
