@@ -225,6 +225,7 @@ GROUP BY 1, 2;
 
 If  we want to filter groups.
 
+`HAVING` statement always comes after `GROUP BY`, but before [`ORDER BY`](https://www.codecademy.com/resources/docs/sql/commands/order-by?page_ref=catalog) and [`LIMIT`](https://www.codecademy.com/resources/docs/sql/commands/limit?page_ref=catalog).
 
 
 ```sql
