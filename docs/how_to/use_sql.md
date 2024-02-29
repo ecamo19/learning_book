@@ -221,6 +221,9 @@ FROM fake_apps
 GROUP BY 1, 2;
 ```
 
+### Having
+
+
 ```sql
 
 ```
