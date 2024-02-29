@@ -153,3 +153,8 @@ FROM movies;
 ### COUNT 
 
 Calculate how many rows are in a table
+```sql
+SELECT COUNT(*)
+FROM fake_apps
+
+```
