@@ -149,3 +149,7 @@ FROM movies;
 ```
 
 ## AGGREGATE FUNCTIONS
+
+### COUNT 
+
+Calculate how many rows are in a table
