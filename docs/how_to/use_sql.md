@@ -229,7 +229,12 @@ If  we want to filter groups.
 
 
 ```sql
-
+SELECT price as 'price_category',
+		ROUND(AVG(downloads)) as 'mean_downloads',
+		COUNT(*) as 't'
+FROM fake_apps
+GROUP BY price
+HAVING COUNT(price) > 10;
 ```
 
 ```sql
