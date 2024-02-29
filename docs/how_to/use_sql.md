@@ -185,7 +185,8 @@ FROM fake_apps;
 ### AVERAGE
 
 ```sql
-
+SELECT AVG(downloads)
+FROM fake_apps;
 ```
 
 ```sql
