@@ -189,6 +189,8 @@ SELECT AVG(downloads)
 FROM fake_apps;
 ```
 ### ROUND
+Rounds the values in the column to the number of decimal places specified by the integer.
+
 
 ```sql
 
