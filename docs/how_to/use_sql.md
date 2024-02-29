@@ -214,7 +214,11 @@ ORDER BY total_sum DESC;
 ```
 
 ```sql
-
+SELECT category, # 1
+		price,   # 2
+		AVG(downloads) # 3
+FROM fake_apps
+GROUP BY 1, 2;
 ```
 
 ```sql
