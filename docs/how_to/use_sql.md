@@ -207,7 +207,10 @@ GROUP BY price;
 ```
 
 ```sql
-
+SELECT category, SUM(downloads) AS 'total_sum'
+FROM fake_apps
+GROUP BY category
+ORDER BY total_sum DESC;
 ```
 
 ```sql
