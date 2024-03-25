@@ -33,7 +33,7 @@ use_readme_md()
 use_r()
 ```
 
-Create a test file that will be stored testthatfolder. Use the same name as the one used in the r script. The function will automatically a 
+Create a test file that will be stored testthat folder. Use the same name as the one used in the r script. The function will automatically add _test-_ to the file name 
 
 ```r
 use_test()
