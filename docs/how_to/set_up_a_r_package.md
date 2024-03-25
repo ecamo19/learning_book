@@ -69,3 +69,7 @@ test()
 ```r
 check()
 ```
+
+```R
+build
+```
