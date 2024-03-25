@@ -48,7 +48,9 @@ use_test()
 
 ```r
 use_package()
+usethis::[use_package](https://usethis.r-lib.org/reference/use_package.html)("dplyr", min_version = TRUE)
 ```
+
 
 ## Functions used frequently throughout a day 
 
