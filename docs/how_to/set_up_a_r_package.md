@@ -27,6 +27,10 @@ use_github()
 use_readme_md()
 ```
 
+```R
+roxygen2::roxygenise()
+```
+
 ## Functions used on a regular basis
 
 ```r
