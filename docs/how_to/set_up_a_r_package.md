@@ -71,5 +71,5 @@ check()
 ```
 
 ```R
-build
+build_readme()
 ```
