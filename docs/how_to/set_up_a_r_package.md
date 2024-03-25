@@ -38,6 +38,9 @@ use_test()
 ```
 
 ```r
+use_package()
 ```
+
+## Functions used frequently through=
 
 
