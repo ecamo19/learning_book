@@ -1,1 +1,1 @@
-#
+This note was created following this [video]()
