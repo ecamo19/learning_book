@@ -64,6 +64,7 @@ document()
 
 ```r
 test()
+devtools:::test(fresh=TRUE)
 ```
 
 ```r
