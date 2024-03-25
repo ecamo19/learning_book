@@ -27,5 +27,17 @@ use_github()
 use_readme_md()
 ```
 
+## Functions used on a regular basis
+
+```r
+use_r()
+```
+
+```r
+use_test()
+```
+
+```r
+```
 
 
