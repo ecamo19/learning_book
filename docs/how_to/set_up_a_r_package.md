@@ -8,6 +8,15 @@ This note was created following this [video](https://www.youtube.com/watch?v=Xjo
 create_package()
 use_git()
 use_mit_license()
-use
+use_testthat()
+use_github()
+use_readme_md()
+```
 
+
+```r
+use_git()
+```
+
+```
 ```
