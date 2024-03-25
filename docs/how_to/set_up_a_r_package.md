@@ -31,6 +31,9 @@ use_readme_md()
 roxygen2::roxygenise()
 ```
 
+```R
+usethis::use_data()
+```
 ## Functions used on a regular basis
 
 ```r
