@@ -41,6 +41,20 @@ use_test()
 use_package()
 ```
 
-## Functions used frequently through=
+## Functions used frequently throughout a day 
 
+```r
+load_all()
+```
 
+```r
+document()
+```
+
+```r
+test()
+```
+
+```r
+check()
+```
