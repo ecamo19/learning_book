@@ -33,7 +33,7 @@ use_readme_md()
 use_r()
 ```
 
-
+Create a test file that will be stored testthatfolder
 
 ```r
 use_test()
