@@ -49,4 +49,5 @@ markdown_extensions:
       alternate_style: true
   - pymdownx.mark
   - attr_list
+  - md_in_html
 
