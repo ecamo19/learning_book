@@ -64,10 +64,7 @@ force-level1-csd -u path/to/data
 
 + (3) Scene identifier: Landsat (Path/Row) as PPPRRR. Make sure to keep leading zeros (i.e. 181034 not 18134).
 
-  
-
-Sentinel-2 (MGRS tile) as "TXXXXX". Make sure to keep the leading T before the MGRS tile number.
-
-  
-
-Either specify the path to a file (one ID per line) or give the ID's on the command-line. If on command line, provide a comma separated list
+	+ Sentinel-2 (MGRS tile) as "TXXXXX". Make sure to keep the leading T before the MGRS tile number.
+	
+	 + Either specify the path to a file (one ID per line) or give the ID's on the command-line. If on command line, provide a comma separated list
+	
