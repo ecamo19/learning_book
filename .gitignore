@@ -163,3 +163,4 @@ cython_debug/
 *.xlsx
 .obsidian
 .ipynb_checkpoints
+force
