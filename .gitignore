@@ -162,3 +162,4 @@ cython_debug/
 .DS_Store
 *.xlsx
 .obsidian
+.ipynb_checkpoints
