@@ -31,6 +31,15 @@ Empty parameter files can be generated with `force-parameter`
 
 `TILE_SIZE`
 
-  
-
 `BLOCK_SIZE`: Block size of the image chips. Block are stripes
+
+## Level 1 cloud storage Downloader
+
+This section covers the process of querying and downloading Landsat and Sentinel-2
+level 1 data from cloud services.
+
+Download the metadata catalogues:
+
+```bash
+force-level1-csd -u path/to/data
+```
