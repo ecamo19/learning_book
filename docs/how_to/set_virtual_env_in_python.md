@@ -1,13 +1,13 @@
 ---
-title: "set a virtual enviroment for Python"
-author: "ECM"
+title: set a virtual enviroment for Python
+author: ECM
 date: "2021"
 output:
- prettydoc::html_pretty:
+  prettydoc::html_pretty:
     highlight: pygments
     theme: cayman
     toc: yes
-    number_sections: True
+    number_sections: true
     toc_depth: 2
 ---
 
