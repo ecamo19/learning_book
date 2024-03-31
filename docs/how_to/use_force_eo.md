@@ -93,7 +93,7 @@ force-level1-csd -u path/to/data
 
 + (7) Check for FORCE Level-2 log files (-l | --logs). Check and and remove any products from the search that have been processed previously. Note that this only checks for the presence of log files, not for actual Level-2 products.
 
-### Querying and downloading data
+### Querying and downloading data for australia
 ```bash
 #
 ```
