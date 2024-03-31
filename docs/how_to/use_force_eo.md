@@ -48,3 +48,26 @@ force-level1-csd -u path/to/data
 
 ![Parameters](media/force_eo_basic_syntax_level_1.png)
 
+#### Mandatory arguments
+
+`metadata-dir`: Directory where metadata is stored (CSV file)
+
+`level-1-datapool`: An existing directory. The files will be stored here
+
+`queue`: Queue files that will be downloaded
+
+`aoi`: Area of interest with:
+
++ (1) User-supplied coordinates. The polygon must be closed (fist (X,Y) and last (X,Y) are equal). (X,Y) must be given as decimal degrees with negative values for west and South coordinates. Either specify the path to a file (one coordinate pair per line?) or the coordinates on the command-line
+
++ (2) A shapefile (point/polygon/line). EPSG4326 projection recommended
+
++ (3) Scene identifier: Landsat (Path/Row) as PPPRRR. Make sure to keep leading zeros (i.e. 181034 not 18134).
+
+  
+
+Sentinel-2 (MGRS tile) as "TXXXXX". Make sure to keep the leading T before the MGRS tile number.
+
+  
+
+Either specify the path to a file (one ID per line) or give the ID's on the command-line. If on command line, provide a comma separated list
