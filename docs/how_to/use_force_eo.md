@@ -10,11 +10,7 @@ This section contain information about:
 ### Datacube concept
 
 FORCE use a data cube that contains data with two characteristics:
-
-  
-
 + All data are in the __same coordinates system__
++ The data are organized in regular, non-overlapping tiles
 
-  
-
-+ The data are organized in regular, non-overlapping tiles.
+![Datacube concept](media/force_datacube.png)
