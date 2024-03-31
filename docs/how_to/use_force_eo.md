@@ -87,7 +87,8 @@ force-level1-csd -u path/to/data
 + (4) Tier level (-t | --tier): Landsat collection tier (Default: T1). Valid tiers = T1, T2, RT.
 
 + (5) Dry run (-n | --no-act). Will trigger a dry run that will only return the number of images and their total data volume.
-+ 
+
 + (6) Keep metadata (-k | --keep-meta). Will write the results of the query to the level 1 datapool directory. Two files will be created if Landsat and Sentinel-2 data is queried at the same time. Filename: csd_metadata_YYYY-MM-DDTHH-MM-SS
 
 + (7) Check for FORCE Level-2 log files (-l | --logs). Check and and remove any products from the search that have been processed previously. Note that this only checks for the presence of log files, not for actual Level-2 products.
+
