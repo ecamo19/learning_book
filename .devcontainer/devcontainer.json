@@ -16,8 +16,8 @@
 	// "forwardPorts": [],
 
 	// Uncomment the next line to run commands after the container is created.
-	//"postCreateCommand": "nbdev_install_quarto",
-
+	//"postCreateCommand": "git clone https://github.com/davidfrantz/force.git",
+	//
 	// Configure tool-specific properties.
 	// "customizations": {},
 
