@@ -13,7 +13,7 @@ FORCE use a data cube that contains data with two characteristics:
 + All data are in the __same coordinates system__
 + The data are organized in regular, non-overlapping tiles
 
-![Datacube concept](media/force_datacube.png
+![Datacube concept](media/force_eo_datacube.png)
 
 ### Define the datacube parameters
 
@@ -43,3 +43,8 @@ Download the metadata catalogues:
 ```bash
 force-level1-csd -u path/to/data
 ```
+
+### Parameterization
+
+![Parameters](media/force_eo_basic_syntax_level_1.png)
+
