@@ -59,9 +59,10 @@ Empty parameter files can be generated with `force-parameter`
 
 `BLOCK_SIZE`: Block size of the image chips. Block are stripes
 
-## Level 1 cloud storage Downloader
-
 ## FORCE Level 1 Processing System
+
+### Cloud storage Downloader
+
 
 This section covers the process of querying and downloading Landsat and Sentinel-2
 level 1 data from cloud services.
@@ -73,7 +74,7 @@ Download the metadata catalogues:
 force-level1-csd -u path/to/data
 ```
 
-### Parameterization
+#### Parameterization
 
 ![Parameters](media/force_eo_basic_syntax_level_1.png)
 
