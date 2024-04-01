@@ -323,3 +323,5 @@ cat /data/force/log/* | tail
 ```bash
 force-level2-report /data/force/log
 ```
+
+## Output format
