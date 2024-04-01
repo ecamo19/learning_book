@@ -224,13 +224,19 @@ Use the https://earthexplorer.usgs.gov/ for downloading data
 
 ```bash
 # Prepare a text file that holds all the filepath
-find /data/Dagobah/global/dem/srtm -name '*.tif' > /data/Earth/global/dem/srtm.txt
+find /data/Dagobah/global/dem/srtm -name '*.tif' >/data/Earth/global/dem/srtm.txt
+```
+
+```bash
+cat /data/Dagobah/global/dem/srtm.txt
+```
+ The idea about how to get a DEM from a place comes from this [video](https://www.youtube.com/watch?v=kGadI6_ZIR4)
+ 
+```bash
+# Use the `gdalbuildvrt` command to generate the virtual mosaic.
 ```
 
 
- The idea about how to get a DEM from a place comes from this [video](https://www.youtube.com/watch?v=kGadI6_ZIR4)
- 
-  
 ```r
 library(elevatr)
 library(geodata)
