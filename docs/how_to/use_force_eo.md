@@ -228,6 +228,8 @@ The DEM should match the resolution of the Level 1 image data as closely as poss
 library(elevatr)
 library(geodata)
 elevation_30s(country="FRA", path="./Desktop")
+
+# The data downloaded in the tutorial has a resolution of 1arc (~63.6*63.6)
 ```
 
 
