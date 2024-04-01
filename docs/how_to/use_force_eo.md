@@ -176,7 +176,17 @@ For Sentinel-2, two additional options are implemented:
 
 ![L2PS](media/force_eo_l2ps.png)
 
-### Folder structut
+### Folder structure
+
+```bash
+mkdir /data/force/level1
+mkdir /data/force/level2
+mkdir /data/force/param
+mkdir /data/force/log
+mkdir /data/force/misc
+mkdir /data/force/temp
+mkdir /data/force/provenance
+```
 
 
 
