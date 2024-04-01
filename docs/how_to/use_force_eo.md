@@ -233,9 +233,9 @@ library(elevatr)
 
 To generate a Level 2 ARD (Analysis ready data) with `FORCE L2PS` is necessary to define the datacube in the parameter file.
 
-`DO_REPROJ`: Indicates if images should be reprojected to the target coordinate system
+`DO_REPROJ`:  Indicates whether the images should be reprojected to the target coordinate system - or stay in their original UTM projection.
 
-`DO_TILE`: Indicates if the images should be tiled to chips that intersect with the grid system
+`DO_TILE`: Indicates whether the images should be tiled to chips that intersect with the grid system - or stay in the original reference system (WRS-2/MGRS).
 
 `PROJECTION`: Defines the target coordinate system
 
