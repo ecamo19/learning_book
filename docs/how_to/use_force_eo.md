@@ -222,6 +222,12 @@ The DEM should match the resolution of the Level 1 image data as closely as poss
 
 Use the https://earthexplorer.usgs.gov/ for downloading data
 
+```bash
+# Prepare a text file that holds all the filepath
+find /data/Dagobah/global/dem/srtm -name '*.tif' > /data/Earth/global/dem/srtm.txt
+```
+
+
  The idea about how to get a DEM from a place comes from this [video](https://www.youtube.com/watch?v=kGadI6_ZIR4)
  
   
