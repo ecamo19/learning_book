@@ -107,11 +107,16 @@ force-level1-csd -u catalog
 # Create the folder to store the data
 mkdir downloaded_data
 
+```
+
+```bash
+
 # Get summary of the data. This is achieve by using the -n
 # the queue.txt will be created
 force-level1-csd -n catalog downloaded_data downloaded_data/queue.txt lat,long 
 ```
 
 ```bash
-
+# Download data
+force-level1-csd catalog downloaded_data downloaded_data/queue.txt lat,long ß
 ```
