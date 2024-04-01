@@ -233,9 +233,16 @@ cat /data/Dagobah/global/dem/srtm.txt
  The idea about how to get a DEM from a place comes from this [video](https://www.youtube.com/watch?v=kGadI6_ZIR4)
  
 ```bash
-# Use the `gdalbuildvrt` command to generate the virtual mosaic.
+# Use the gdalbuildvrt command to generate the virtual mosaic.
+gdalbuildvrt -input_file_list /data/Dagobah/global/dem/srtm.txt /data/Earth/global/dem/srtm.vrt
 ```
 
+```bash
+# Check the file created
+head -n 14 /data/Dagobah/global/dem/srtm.vrt
+```
+
+##
 
 ```r
 library(elevatr)
