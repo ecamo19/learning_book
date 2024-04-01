@@ -253,3 +253,10 @@ gdalUtils::gdalsrsinfo()
 `BLOCK_SIZE`: Block size (in target units, commonly in meters) of the image chips. Blocks are stripes, i.e. they are as wide as the tile and as high as specified here. The blocks represent the internal structure of the GeoTiffs, and represent the primary processing unit of the force-higher-level routines.
 
 #### Radiometric correction
+
+The default parameter file already has all radiometric corrections enabled, and this is the setup I commonly use for generating ARD. This includes atmospheric correction with multiple scattering effects, image-based AOD estimation, topographic correction, adjacency effect correction, and nadir BRDF correction. 
+
+The only thing that needs to be changed (__and only if processing Landsat data__) is the parameterization of the water vapor correction.
+
+
+#### Cloud detection
