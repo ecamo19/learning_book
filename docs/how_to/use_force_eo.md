@@ -189,4 +189,4 @@ mkdir /data/force/provenance
 ```
 
 
-![L2PS](media/f)
+![Folder structure](media/force_eo_folder_structure.png)
