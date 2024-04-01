@@ -237,7 +237,14 @@ To generate a Level 2 ARD (Analysis ready data) with `FORCE L2PS` is necessary t
 
 `DO_TILE`: Indicates whether the images should be tiled to chips that intersect with the grid system - or stay in the original reference system (WRS-2/MGRS).
 
-`PROJECTION`: Defines the target coordinate system. This projection should ideally be valid for a large geographic extent. The projection needs to given as “WKT” string. You can verify your projection (and convert to WKT from another format) using `gdalsrsinfo` (see below). If this fails, you need to fix the projection - otherwise FORCE L2PS will likely fail, too.
+`PROJECTION`: Defines the target coordinate system. This projection should ideally be valid for a large geographic extent. The projection needs to given as “WKT” string. 
+
+You can verify your projection (and convert to WKT from another format) using gdalsrsinfo function. If this fails, you need to fix the projection - otherwise FORCE L2PS will likely fail, too.
+
+```r
+::gdalsrsinfo()
+```
+
 
 `ORIGIN_LAT` and `ORIGIN_LONG`: Indicate the origin coordinates
 
