@@ -301,3 +301,9 @@ I typically generate additional quicklooks (`OUTPUT_OVV`). If you want to genera
 # Run these command
 force-level2 /data/force/param/l2ps.prm
 ```
+
+After processing, I recommend to check the logfiles, which we have written to `/data/force/log`
+
+```bash
+ls /data/force/log | tail
+```
