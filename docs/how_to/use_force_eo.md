@@ -251,3 +251,5 @@ gdalUtils::gdalsrsinfo()
 `TILE_SIZE`:  Tile size (in target units, commonly in meters). Tiles are square.
 
 `BLOCK_SIZE`: Block size (in target units, commonly in meters) of the image chips. Blocks are stripes, i.e. they are as wide as the tile and as high as specified here. The blocks represent the internal structure of the GeoTiffs, and represent the primary processing unit of the force-higher-level routines.
+
+#### Radiometric correction
