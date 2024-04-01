@@ -98,5 +98,5 @@ force-level1-csd -u path/to/data
 # Create the folder to store the data
 mkdir australia
 
-force-level1-csd -u 
+force-level1-csd  
 ```
