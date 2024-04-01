@@ -274,3 +274,5 @@ In my opinion, heavily clouded images are most often of little use, and even if 
 This parameter defines the method used for improving the spatial resolution of Sentinel-2’s 20m bands to 10m. 
 
 It defaults to the [ImproPhe code](https://ieeexplore.ieee.org/document/7452606), which is a data fusion option with both decent performance and quality. Let’s keep this method, but feel free to try the other options.
+
+#### Co-Registration[](https://force-eo.readthedocs.io/en/latest/howto/l2-ard.html#co-registration "Permalink to this heading")
