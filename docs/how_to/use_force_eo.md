@@ -268,3 +268,9 @@ You can probably change the maximum cloud cover parameters to your liking.
 The `MAX_CLOUD_COVER_FRAME` parameter cancels the processing of images that exceed the given threshold.  The processing will be canceled right after cloud detection and thus saves quite some processing time. 
 
 In my opinion, heavily clouded images are most often of little use, and even if cloud detection flags some pixels as “clear”, they are usually somewhat contaminated, e.g. in transition zones from clear-sky to cloud. Therefore, I commonly do not go up to 100%. The `MAX_CLOUD_COVER_TILE` parameter is similar, but it works on a per tile basis. It suppresses the output for chips (tiled image) that exceed the given threshold.
+
+#### Resolution merge
+
+This parameter defines the method used for improving the spatial resolution of Sentinel-2’s 20m bands to 10m. 
+
+It defaults to the [ImproPhe code](https://ieeexplore.ieee.org/document/7452606), which is a data fusion option with both decent performance and quality. Let’s keep this method, but feel free to try the other options.
