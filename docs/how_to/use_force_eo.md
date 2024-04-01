@@ -119,3 +119,5 @@ force-level1-csd -n catalog downloaded_data downloaded_data/queue.txt long/lat
 # Download data
 force-level1-csd catalog downloaded_data downloaded_data/queue.txt long/lat 
 ```
+
+![Parameters](media/force_eo_basic_syntax_level_1.png)
