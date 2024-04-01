@@ -12,7 +12,9 @@ Remote sensing products are grouped in a hierarchical classification scheme.
 
 - Level 4 products are model output (classifications etc.), often derived from multi-temporal or multi-sensor measurements.
 
+## [What are Analysis Ready Data?](https://force-eo.readthedocs.io/en/latest/howto/l2-ard.html#what-are-analysis-ready-data "Permalink to this heading")
 
+CEOS description
 
 ## The datacube
 
