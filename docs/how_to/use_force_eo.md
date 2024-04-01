@@ -88,7 +88,7 @@ force-level1-csd -u path/to/data
 
 `aoi`: Area of interest with:
 
-+ (1) User-supplied coordinates. The polygon must be closed (fist (X,Y) and last (X,Y) are equal). (X,Y) must be given as decimal degrees with negative values for west and South coordinates. Either specify the path to a file (one coordinate pair per line?) or the coordinates on the command-line.
++ (1) User-supplied coordinates. The polygon must be closed (fist (X,Y) and last (X,Y) are equal). (X,Y) must be given as decimal degrees with negative values for west and South coordinates. Either specify the path to a file (one coordinate pair per line?) or the coordinates on the command-line. [This webpage](http://bboxfinder.com/) could be used to define an aoi
 
 + (2) A shapefile (point/polygon/line). EPSG4326 projection recommended.
 
@@ -98,7 +98,7 @@ force-level1-csd -u path/to/data
 	
 	 + Either specify the path to a file (one ID per line) or give the ID's on the command-line. If on command line, provide a comma separated list.
 	
-	The
+	
 	 
 ##### Optional Arguments
 
