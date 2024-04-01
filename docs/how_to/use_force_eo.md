@@ -190,3 +190,10 @@ mkdir /data/force/provenance
 
 
 ![Folder structure](media/force_eo_folder_structure.png)
+
+### Parameter file
+
+```bash
+# Create empty file
+force-parameter /data/force/param/l2ps.prm LEVEL2
+```
