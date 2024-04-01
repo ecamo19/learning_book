@@ -141,7 +141,10 @@ This section explains how to use the FORCE level 1 Archiving suite to download, 
 A `.scihub` file containing the credentials for accessing the [Copernicus website](https://dataspace.copernicus.eu/) is need it. This file should be saved in your home directory and should contain your username (first line) and password (second line) with only reading rights. 
 
 
-```
-# Create a file storing 
+```bash
+# Create a file storing credentials
+touch ~/.scihub
+nano ~/.scihub
+
 ```
 
