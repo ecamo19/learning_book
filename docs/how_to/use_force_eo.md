@@ -216,7 +216,9 @@ DIR_TEMP = /data/force/temp
 
 #### Digital Elevation model (DEM)
 
-A DEM is necessary in l2ps to:
+In principle, FORCE L2PS can be used without a DEM (FILE_DEM = NULL). In this case, the surface is assumed to be flat at z = 0m a.s.l. However it is strongly advised to use a DEM.
+
+A DEM is necessary to:
 
 - Enhanced cloud and cloud shadow detection. This step is used to distinguish cloud shadows from water and topographic shadows. 
 
