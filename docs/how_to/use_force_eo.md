@@ -61,6 +61,8 @@ Empty parameter files can be generated with `force-parameter`
 
 ## Level 1 cloud storage Downloader
 
+## FORCE Level 1 Processing System
+
 This section covers the process of querying and downloading Landsat and Sentinel-2
 level 1 data from cloud services.
 
@@ -158,4 +160,14 @@ force-level1-csd -k catalog downloaded_data downloaded_data/queue.txt long/lat
 ```
 
 ## FORCE Level 2 Processing System
+
+main processing steps:
+
+1. cloud and cloud shadow detection
+    
+2. radiometric correction
+    
+3. data cubing
+
+
 
