@@ -218,7 +218,7 @@ DIR_TEMP = /data/force/temp
 
 A DEM is necessary in l2ps to:
 
-- Enhanced cloud and cloud shadow detection,
-- Permorn Atmospheric correction, and to
-- perform the topographic correction.
+- Enhanced cloud and cloud shadow detection. used to distinguish cloud shadows from water and topographic shadows.
+- Perform an atmospheric correction
+- Perform the topographic correction
 
