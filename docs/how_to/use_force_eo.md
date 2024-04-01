@@ -208,12 +208,13 @@ nano l2ps.prm
 # Add queue file created with force-level1-csd function
 FILE_QUEUE = /data/force/level1/queue.txt
 
-
+# Set the directories for output, logfiles and temporary data
 DIR_LEVEL2 = /data/force/level2
 DIR_LOG = /data/force/log
 DIR_TEMP = /data/force/temp
-
 ```
 
-#### Digital Elevation model
+#### Digital Elevation model (DEM)
+
+A DEM
 
