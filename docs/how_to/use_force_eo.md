@@ -260,3 +260,11 @@ The only thing that needs to be changed (__and only if processing Landsat data__
 
 
 #### Cloud detection
+
+The default parameter file already has meaningful values for the cloud correction. I usually don’t tweak the Fmask parameters.
+
+You can probably change the maximum cloud cover parameters to your liking. 
+
+The `MAX_CLOUD_COVER_FRAME` parameter cancels the processing of images that exceed the given threshold.  The processing will be canceled right after cloud detection and thus saves quite some processing time. 
+
+In my opinion, heavily clouded images are most often of little use, and even if cloud detection flags some pixels as “clear”, they are usually somewhat contaminated, e.g. in transition zones from clear-sky to cloud. Therefore, I commonly do not go up to 100%. The `MAX_CLOUD_COVER_TILE` parameter is similar, but it works on a per tile basis. It suppresses the output for chips (tiled image) that exceed the given threshold.
