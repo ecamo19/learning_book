@@ -194,6 +194,6 @@ mkdir /data/force/provenance
 ### Parameter file
 
 ```bash
-# Create empty file
+# Create empty parameter file
 force-parameter /data/force/param/l2ps.prm LEVEL2
 ```
