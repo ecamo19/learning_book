@@ -331,3 +331,11 @@ For more details, see the [Output Format](https://force-eo.readthedocs.io/en/la
 The output data are organized in data cubes. The tiles manifest as directories in the file system, and the images are stored within. This is decribed in more detail in the [The Datacube](https://force-eo.readthedocs.io/en/latest/howto/datacube.html#tut-datacube).
 
 Basically, for each tile, you get a time series of square image chips that always show the same extent.
+
+Each dataset consists of a _BOA_ and _QAI_ product, which are Bottom-of-Atmosphere reflectance and Quality Assurance Information. Depending on parameterization ,there are more products, e.g. _OVV_ for image overviews (quicklooks).
+
+The reflectance products are multi-band images and consist of 6 bands for Landsat (Landsat legacy bands), and 10 bands for Sentinel-2 (land surface bands). All bands are provided at the same spatial resolution, typically 30m for Landsat and 10m for Sentinel-2.
+
+QAI are provided bit-wise for each pixel. QAI are essential for making your analyses a success, therefore, please have a look at the [Quality Assurance Information](https://force-eo.readthedocs.io/en/latest/howto/qai.html#tut-qai) tutorial.
+
+Metadata are written to all output products. Note that FORCE-specific metadata will be written to the FORCE domain, and thus are probably not visible unless the FORCE domain (or all domains) are specifically requested:
