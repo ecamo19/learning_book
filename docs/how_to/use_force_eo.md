@@ -1,3 +1,19 @@
+## [What are Levels?](https://force-eo.readthedocs.io/en/latest/howto/l2-ard.html#what-are-levels "Permalink to this heading")
+
+Remote sensing products are grouped in a hierarchical classification scheme.
+
+- Level 0 data are the measurements taken onboard the satellite - they are not available to users.
+
+- Level 1 data are radiometrically calibrated and georectified.
+    
+- Level 2 data most notably include some sort of atmospheric correction and probably other corrections like topographic correction.
+    
+- Level 3 data are temporal Level 2 aggregates, e.g. pixel based composites or statistical aggregations like multitemporal averages.
+    
+- Level 4 products are model output (classifications etc.), often derived from multi-temporal or multi-sensor measurements.
+
+
+
 ## The datacube
 
 This section contain information about:
