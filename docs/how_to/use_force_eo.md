@@ -96,7 +96,9 @@ force-level1-csd -u path/to/data
 ### Querying and downloading data for Australia
 ```bash
 # Create the folder to store the data
-mkdir australia
+mkdir australia 
+```
 
-force-level1-csd  
+```bash
+
 ```
