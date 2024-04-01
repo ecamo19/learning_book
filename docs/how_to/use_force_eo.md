@@ -59,7 +59,7 @@ Empty parameter files can be generated with `force-parameter`
 
 `BLOCK_SIZE`: Block size of the image chips. Block are stripes
 
-## FORCE Level 1 Processing System
+## FORCE Level 1 Processing System (L1PS)
 
 ### Cloud storage Downloader
 
@@ -160,7 +160,9 @@ The metadata can be very helpful when creating statistics and visualizations abo
 force-level1-csd -k catalog downloaded_data downloaded_data/queue.txt long/lat 
 ```
 
-## FORCE Level 2 Processing System
+## FORCE Level 2 Processing System (L2PS)
+
+L2PS converts each Level 1 image to ARD specification
 
 main processing steps:
 
