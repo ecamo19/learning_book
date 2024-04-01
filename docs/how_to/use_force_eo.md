@@ -107,8 +107,8 @@ force-level1-csd -u catalog
 # Create the folder to store the data
 mkdir australia 
 
-# Check 
-force-level1-csd 
+# Summary of the data
+force-level1-csd -n 
 ```
 
 ```bash
