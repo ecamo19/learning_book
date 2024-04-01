@@ -287,3 +287,9 @@ NPROC =
 NTHREAD = 
 DELAY = 
 ```
+
+#### Output options
+
+The default output options are already my usual setup for ARD generation. 
+
+The output files will be stored as compressed GeoTiff images with internal blocks for partial access. Note that metadata are written to the FORCE domain, thus they only show up if you look into all metadata domains, e.g. The Bottom-of-Atmosphere reflectance product and the Quality Assurance Information are written by default - and they can’t be disabled. I typically generate additional quicklooks (`OUTPUT_OVV`). If you want to generate pixel based composites in the next step, you should additionally output the `OUTPUT_DST`, `OUTPUT_VZN`, and `OUTPUT_HOT` products. The `OUTPUT_AOD` and `OUTPUT_WVP` products are not used by any higher level submodule - they are only useful for validation purposes.
