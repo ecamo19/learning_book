@@ -97,6 +97,8 @@ force-level1-csd -u path/to/data
 	+ Sentinel-2 (MGRS tile) as "TXXXXX". Make sure to keep the leading T before the MGRS tile number.
 	
 	 + Either specify the path to a file (one ID per line) or give the ID's on the command-line. If on command line, provide a comma separated list.
+	
+	The
 	 
 ##### Optional Arguments
 
