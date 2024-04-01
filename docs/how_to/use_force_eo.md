@@ -131,7 +131,7 @@ The metadata can be very helpful when creating statistics and visualizations abo
 force-level1-csd -k catalog downloaded_data downloaded_data/queue.txt long/lat 
 ```
 
-## Sentinel-2 Level 1C
+## Sentinel-2 Level  1C: Download data from ESA
 
 This section explains how to use the FORCE level 1 Archiving suite to download, organize and maintain a clean and consistent Sentinel-2 level 1 data pool as well as corresponding data queues needed for the __level 2 processing__.
 
