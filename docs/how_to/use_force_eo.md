@@ -59,9 +59,9 @@ force-level1-csd -u path/to/data
 
 `aoi`: Area of interest with:
 
-+ (1) User-supplied coordinates. The polygon must be closed (fist (X,Y) and last (X,Y) are equal). (X,Y) must be given as decimal degrees with negative values for west and South coordinates. Either specify the path to a file (one coordinate pair per line?) or the coordinates on the command-line
++ (1) User-supplied coordinates. The polygon must be closed (fist (X,Y) and last (X,Y) are equal). (X,Y) must be given as decimal degrees with negative values for west and South coordinates. Either specify the path to a file (one coordinate pair per line?) or the coordinates on the command-line.
 
-+ (2) A shapefile (point/polygon/line). EPSG4326 projection recommended
++ (2) A shapefile (point/polygon/line). EPSG4326 projection recommended.
 
 + (3) Scene identifier: Landsat (Path/Row) as PPPRRR. Make sure to keep leading zeros (i.e. 181034 not 18134).
 
@@ -106,7 +106,6 @@ force-level1-csd -u catalog
 ```bash
 # Create the folder to store the data
 mkdir downloaded_data
-
 ```
 
 ```bash
