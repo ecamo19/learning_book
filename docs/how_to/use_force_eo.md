@@ -201,7 +201,13 @@ force-parameter /data/force/param/l2ps.prm LEVEL2
 #### Input / Output
 
 
+```bash
+# Edit parameters inside parameter file
+nano l2ps.prm
 
+FILE_QUEUE = /data/force/level1/queue.txt
+
+```
 
 #### Digital Elevation model
 
