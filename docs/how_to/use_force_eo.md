@@ -307,3 +307,9 @@ After processing, I recommend to check the logfiles, which we have written to `
 ```bash
 ls /data/force/log | tail
 ```
+
+The logfiles report the percentage of data cover (how many pixels are not no-data), water cover, snow cover and cloud cover. 
+
+Then, aerosol optical depth @ 550 nm (scene average), and the number of dark targets for retrieving aerosol optical depth (over water/vegetation) are printed. 
+
+Then, the number of products written (number of tiles), and a supportive success indication is printed. In the case the overall cloud coverage is higher than allowed, the image is skipped. The processing time (real time) is appended at the end.
