@@ -97,7 +97,7 @@ force-level1-csd -u path/to/data
 
 ```bash
 # Download catalog 
-force-level1-csd -u path/t
+force-level1-csd -u 
 ```
 
 ```bash
