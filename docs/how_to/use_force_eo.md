@@ -118,5 +118,5 @@ force-level1-csd -n catalog downloaded_data downloaded_data/queue.txt lat,long
 
 ```bash
 # Download data
-force-level1-csd catalog downloaded_data downloaded_data/queue.txt lat,long ß
+force-level1-csd catalog downloaded_data downloaded_data/queue.txt lat/long 
 ```
