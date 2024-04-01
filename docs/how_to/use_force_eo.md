@@ -244,3 +244,6 @@ The DEM should match the resolution of the Level 1 image data as closely as poss
 ```r
 library(elevatr)
 ```
+
+
+#### Datacube parameters
