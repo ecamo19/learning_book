@@ -164,9 +164,12 @@ force-level1-csd -k catalog downloaded_data downloaded_data/queue.txt long/lat
 
 L2PS converts each Level 1 image to ARD specification.  This includes three main processing steps:
 
-	1. cloud and cloud shadow detection
-	2. radiometric correction
-	3. data cubing
+1. Cloud and cloud shadow detection
+2. Radiometric correction
+3. Data cubing
 
+For Sentinel-2, two additional options are implemented:
+
+1.
 
 
