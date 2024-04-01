@@ -237,6 +237,9 @@ A DEM is necessary to:
 
 The DEM should match the resolution of the Level 1 image data as closely as possible. It is advised to use a finer resolution. However, as it is hard to acquire high spatial resolution DEMs, especially for larger areas, lower resolution works too. Often, we use the 30m SRTM DEM or 30m ASTER DEM, or a combination thereof, e.g. SRTM filled with ASTER (SRTM is a bit better, but there are holes in mountainous regions, and coverage is only 60°N-60°S).
 
+
+ The idea about how to get a DEM from a place c
+  
 ```r
 library(elevatr)
 ```
