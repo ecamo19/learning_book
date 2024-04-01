@@ -325,3 +325,9 @@ force-level2-report /data/force/log
 ```
 
 ## Output format
+
+For more details, see the [Output Format](https://force-eo.readthedocs.io/en/latest/components/lower-level/level2/format.html#level2-format).
+
+The output data are organized in data cubes. The tiles manifest as directories in the file system, and the images are stored within. This is decribed in more detail in the [The Datacube](https://force-eo.readthedocs.io/en/latest/howto/datacube.html#tut-datacube).
+
+Basically, for each tile, you get a time series of square image chips that always show the same extent.
