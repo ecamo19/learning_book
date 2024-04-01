@@ -170,6 +170,7 @@ L2PS converts each Level 1 image to ARD specification.  This includes three mai
 
 For Sentinel-2, two additional options are implemented:
 
-1.
+1. Resolution merging, i.e. increase the spatial resolution of the 20m bands to 10m
+2. Co-registration with Landsat time series
 
 
