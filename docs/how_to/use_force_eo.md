@@ -280,3 +280,8 @@ It defaults to the [ImproPhe code](https://ieeexplore.ieee.org/document/7452606
 Since v. 3.0, FORCE is able to perform a co-registration of Sentinel-2 images with Landsat time series. For starters, we will not use this option, but see the [Coregistration](https://force-eo.readthedocs.io/en/latest/howto/coreg.html#tut-coreg) tutorial.
 
 #### Parallel Processing
+
+```BASH
+# Adjust these paramters
+
+```
