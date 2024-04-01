@@ -295,4 +295,9 @@ The output files will be stored as compressed GeoTiff images with internal block
 
 I typically generate additional quicklooks (`OUTPUT_OVV`). If you want to generate pixel based composites in the next step, you should additionally output the `OUTPUT_DST`, `OUTPUT_VZN`, and `OUTPUT_HOT` products. The `OUTPUT_AOD` and `OUTPUT_WVP` products are not used by any higher level submodule - they are only useful for validation purposes.
 
-## Processing
+### Processing
+
+```bash
+# Run these command
+force-level2 /data/force/param/l2ps.prm
+```
