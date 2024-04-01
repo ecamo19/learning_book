@@ -108,7 +108,7 @@ force-level1-csd -u catalog
 mkdir australia 
 
 # Summary of the data
-force-level1-csd -n 
+force-level1-csd -n catalog catalog/que
 ```
 
 ```bash
