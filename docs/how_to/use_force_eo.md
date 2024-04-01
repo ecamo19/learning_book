@@ -41,23 +41,6 @@ FORCE use a data cube that contains data with two characteristics:
 
 ![Datacube concept](media/force_eo_datacube.png)
 
-### Define the datacube parameters
-
-To generate a Level 2 ARD (Analysis ready data) with `FORCE L2PS` is necessary to define the datacube in the parameter file.
-
-Empty parameter files can be generated with `force-parameter`
-
-`DO_REPROJ`: Indicates if images should be reprojected to the target coordinate system
-
-`DO_TILE`: Indicates if the images should be tiled to chips that intersect with the grid system
-
-`PROJECTION`: Defines the target coordinate system
-
-`ORIGIN_LAT` and `ORIGIN_LONG`: Indicate the origin coordinates
-
-`TILE_SIZE`
-
-`BLOCK_SIZE`: Block size of the image chips. Block are stripes
 
 ## FORCE Level 1 Processing System (L1PS)
 
@@ -247,3 +230,17 @@ library(elevatr)
 
 
 #### Datacube parameters
+
+To generate a Level 2 ARD (Analysis ready data) with `FORCE L2PS` is necessary to define the datacube in the parameter file.
+
+`DO_REPROJ`: Indicates if images should be reprojected to the target coordinate system
+
+`DO_TILE`: Indicates if the images should be tiled to chips that intersect with the grid system
+
+`PROJECTION`: Defines the target coordinate system
+
+`ORIGIN_LAT` and `ORIGIN_LONG`: Indicate the origin coordinates
+
+`TILE_SIZE`
+
+`BLOCK_SIZE`: Block size of the image chips. Block are stripes
