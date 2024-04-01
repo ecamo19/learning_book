@@ -275,4 +275,8 @@ This parameter defines the method used for improving the spatial resolution of S
 
 It defaults to the [ImproPhe code](https://ieeexplore.ieee.org/document/7452606), which is a data fusion option with both decent performance and quality. Let’s keep this method, but feel free to try the other options.
 
-#### Co-Registration[](https://force-eo.readthedocs.io/en/latest/howto/l2-ard.html#co-registration "Permalink to this heading")
+#### Co-Registration
+
+Since v. 3.0, FORCE is able to perform a co-registration of Sentinel-2 images with Landsat time series. For starters, we will not use this option, but see the [Coregistration](https://force-eo.readthedocs.io/en/latest/howto/coreg.html#tut-coreg) tutorial.
+
+#### Parallel Processing
