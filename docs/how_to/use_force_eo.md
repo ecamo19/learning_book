@@ -176,6 +176,7 @@ For Sentinel-2, two additional options are implemented:
 
 ![L2PS](media/force_eo_l2ps.png)
 
+### Folder structut
 
 
 
