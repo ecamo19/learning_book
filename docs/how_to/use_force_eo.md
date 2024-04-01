@@ -162,15 +162,11 @@ force-level1-csd -k catalog downloaded_data downloaded_data/queue.txt long/lat
 
 ## FORCE Level 2 Processing System (L2PS)
 
-L2PS converts each Level 1 image to ARD specification
+L2PS converts each Level 1 image to ARD specification.  This includes three main processing steps:
 
-main processing steps:
-
-1. cloud and cloud shadow detection
-    
-2. radiometric correction
-    
-3. data cubing
+	1. cloud and cloud shadow detection
+	2. radiometric correction
+	3. data cubing
 
 
 
