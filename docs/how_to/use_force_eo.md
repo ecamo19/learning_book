@@ -216,5 +216,9 @@ DIR_TEMP = /data/force/temp
 
 #### Digital Elevation model (DEM)
 
-A DEM
+A DEM is necessary in l2ps to:
+
+- Enhanced cloud and cloud shadow detection,
+- Permorn Atmospheric correction, and to
+- perform the topographic correction.
 
