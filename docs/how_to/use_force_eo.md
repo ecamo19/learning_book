@@ -283,5 +283,7 @@ Since v. 3.0, FORCE is able to perform a co-registration of Sentinel-2 images wi
 
 ```BASH
 # Adjust these paramters
-
+NPROC = 
+NTHREAD = 
+DELAY = 
 ```
