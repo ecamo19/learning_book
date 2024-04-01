@@ -96,7 +96,7 @@ force-level1-csd -u path/to/data
 ### Querying and downloading data for Australia
 
 ```bash
-
+# Download catalog 
 ```
 
 ```bash
