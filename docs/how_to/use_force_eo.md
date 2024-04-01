@@ -78,7 +78,7 @@ force-level1-csd -u path/to/data
 
 ![Parameters](media/force_eo_basic_syntax_level_1.png)
 
-#### Mandatory arguments
+##### Mandatory arguments
 
 `metadata-dir`: Directory where metadata is stored (CSV file)
 
@@ -98,7 +98,7 @@ force-level1-csd -u path/to/data
 	
 	 + Either specify the path to a file (one ID per line) or give the ID's on the command-line. If on command line, provide a comma separated list.
 	 
-#### Optional Arguments
+##### Optional Arguments
 
 + (1) Cloud cover (-c | --cloudcover): Range between 0-100%.
 
@@ -150,7 +150,7 @@ force-level1-csd catalog downloaded_data downloaded_data/queue.txt long/lat
 
 ![Example output](media/force_eo_level1_csd_example_output.png)
 
-#### Saving metadata
+##### Saving metadata
 
 The metadata can be very helpful when creating statistics and visualizations about data availability over time, cloud cover distribution over time, data volume (e.g., per sensor or year), etc. Using the `-k | --keep-meta` option will save the results of the current query to the Level 1 datapool folder under the file name.
 
