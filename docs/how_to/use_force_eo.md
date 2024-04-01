@@ -96,8 +96,8 @@ force-level1-csd -u path/to/data
 ### Querying and downloading data for Australia
 
 ```bash
-# Create folder to store the cata
-mkdir australia
+# Create folder to store the catalog
+mkdir catalog 
 
 # Download catalog 
 force-level1-csd -u 
