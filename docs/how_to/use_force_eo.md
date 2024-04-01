@@ -313,3 +313,13 @@ The logfiles report the percentage of data cover (how many pixels are not no-dat
 Then, aerosol optical depth @ 550 nm (scene average), and the number of dark targets for retrieving aerosol optical depth (over water/vegetation) are printed. 
 
 Then, the number of products written (number of tiles), and a supportive success indication is printed. In the case the overall cloud coverage is higher than allowed, the image is skipped. The processing time (real time) is appended at the end.
+
+```bash
+cat /data/force/log/* | tail
+```
+
+#### Create plot report 
+
+```bash
+force-level2-report /data/force/log
+```
