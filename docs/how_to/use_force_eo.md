@@ -174,7 +174,8 @@ For Sentinel-2, two additional options are implemented:
 2. Co-registration with Landsat time series
 
 
-![Example output](media/force_eo_l2ps.png)
+![L2PS](media/force_eo_l2ps.png)
+
 
 
 
