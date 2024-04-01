@@ -100,7 +100,7 @@ force-level1-csd -u path/to/data
 mkdir catalog 
 
 # Download catalog 
-force-level1-csd -u cata
+force-level1-csd -u catalog
 ```
 
 ```bash
