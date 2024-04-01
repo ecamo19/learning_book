@@ -41,7 +41,7 @@ level 1 data from cloud services.
 Download the metadata catalogues:
 
 ```bash
-# Download metadata catalogues
+# Download metadata catalogues as a first step
 force-level1-csd -u path/to/data
 ```
 
