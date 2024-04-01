@@ -242,7 +242,7 @@ To generate a Level 2 ARD (Analysis ready data) with `FORCE L2PS` is necessary t
 You can verify your projection (and convert to WKT from another format) using gdalsrsinfo function. If this fails, you need to fix the projection - otherwise FORCE L2PS will likely fail, too.
 
 ```r
-::gdalsrsinfo()
+gdalUtils::gdalsrsinfo()
 ```
 
 
