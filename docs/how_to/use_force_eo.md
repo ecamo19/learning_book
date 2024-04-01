@@ -216,7 +216,7 @@ DIR_TEMP = /data/force/temp
 
 #### Digital Elevation model (DEM)
 
-In principle, FORCE L2PS can be used without a DEM (FILE_DEM = NULL). In this case, the surface is assumed to be flat at z = 0m a.s.l. However it is strongly advised to use a DEM.
+In principle, FORCE L2PS can be used without a DEM (FILE_DEM = NULL). In this case, the surface is assumed to be flat at z = 0m a.s.l. However it is __strongly advised to use a DEM__.
 
 A DEM is necessary to:
 
@@ -226,3 +226,8 @@ A DEM is necessary to:
 
 - Perform the topographic correction. The topographic correction is of course relying on the DEM
 
+##### Data format
+
+- The unit must be meters.
+- The Nodata value shouldn’t be 0, which is a valid elevation.
+- The DEM must cover the complete image(s) to be processed.
