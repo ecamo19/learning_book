@@ -248,6 +248,6 @@ gdalUtils::gdalsrsinfo()
 
 `ORIGIN_LAT` and `ORIGIN_LONG`: Indicate the origin coordinates
 
-`TILE_SIZE`
+`TILE_SIZE`:  Tile size (in target units, commonly in meters). Tiles are square.
 
-`BLOCK_SIZE`: Block size of the image chips. Block are stripes
+`BLOCK_SIZE`: Block size (in target units, commonly in meters) of the image chips. Blocks are stripes, i.e. they are as wide as the tile and as high as specified here. The blocks represent the internal structure of the GeoTiffs, and represent the primary processing unit of the force-higher-level routines.
