@@ -135,6 +135,11 @@ force-level1-csd -k catalog downloaded_data downloaded_data/queue.txt long/lat
 
 This section explains how to use the FORCE level 1 Archiving suite to download, organize and maintain a clean and consistent Sentinel-2 level 1 data pool as well as corresponding data queues needed for the __level 2 processing__.
 
+
+### Create credentials file
+
+A .scihub file 
+
 ```
 # Create a file storing 
 ```
