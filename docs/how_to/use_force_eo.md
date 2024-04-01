@@ -67,13 +67,13 @@ force-level1-csd -u path/to/data
 
 	+ Sentinel-2 (MGRS tile) as "TXXXXX". Make sure to keep the leading T before the MGRS tile number.
 	
-	 + Either specify the path to a file (one ID per line) or give the ID's on the command-line. If on command line, provide a comma separated list
+	 + Either specify the path to a file (one ID per line) or give the ID's on the command-line. If on command line, provide a comma separated list.
 	 
 #### Optional Arguments
 
 + (1) Cloud cover (-c | --cloudcover): Range between 0-100%.
 
-+ (2) Date range (-d | --daterange): Range dates with the format YYYYMMDD,YYYYMMDD
++ (2) Date range (-d | --daterange): Range dates with the format YYYYMMDD,YYYYMMDD.
 
 + (3) Sensor (-s | --sensor): Default: LT04,LT05,LE07,LC08,S2A,S2B.
 	+ Landsat
@@ -89,7 +89,7 @@ force-level1-csd -u path/to/data
 
 + (5) Dry run (-n | --no-act). Will trigger a dry run that will only return the number of images and their total data volume.
 
-+ (6) Keep metadata (-k | --keep-meta). Will write the results of the query to the level 1 datapool directory. Two files will be created if Landsat and Sentinel-2 data is queried at the same time. Filename: csd_metadata_YYYY-MM-DDTHH-MM-SS
++ (6) Keep metadata (-k | --keep-meta). Will write the results of the query to the level 1 datapool directory. Two files will be created if Landsat and Sentinel-2 data is queried at the same time. Filename: csd_metadata_YYYY-MM-DDTHH-MM-SS.
 
 + (7) Check for FORCE Level-2 log files (-l | --logs). Check and and remove any products from the search that have been processed previously. Note that this only checks for the presence of log files, not for actual Level-2 products.
 
@@ -124,7 +124,7 @@ force-level1-csd catalog downloaded_data downloaded_data/queue.txt long/lat
 
 #### Saving metadata
 
-The metadata can be very helpful when creating statistics and visualizations about data availability over time, cloud cover distribution over time, data volume (e.g., per sensor or year), etc. Using the `-k | --keep-meta` option will save the results of the current query to the Level 1 datapool folder under the file name
+The metadata can be very helpful when creating statistics and visualizations about data availability over time, cloud cover distribution over time, data volume (e.g., per sensor or year), etc. Using the `-k | --keep-meta` option will save the results of the current query to the Level 1 datapool folder under the file name.
 
 
 ```bash
@@ -134,4 +134,7 @@ force-level1-csd -k catalog downloaded_data downloaded_data/queue.txt long/lat
 
 ## Sentinel-2 Level 1C
 
-This section explains how to use the FORCE level 1 Archiving suite to download, organize and maintain a clean and consistent Sentinel-2 level 1 data pool as
+This section explains how to use the FORCE level 1 Archiving suite to download, organize and maintain a clean and consistent Sentinel-2 level 1 data pool as well as corresponding data queues needed for the __level 2 processing__.
+
+
+
