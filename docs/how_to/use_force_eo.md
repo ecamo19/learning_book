@@ -138,7 +138,8 @@ This section explains how to use the FORCE level 1 Archiving suite to download, 
 
 ### Create credentials file
 
-A `.scihub` file containing the credentials for accessing the [Copernicus websiee is need it 
+A `.scihub` file containing the credentials for accessing the [Copernicus website](https://dataspace.copernicus.eu/) is need it. Thi
+
 
 ```
 # Create a file storing 
