@@ -15,9 +15,14 @@ Remote sensing products are grouped in a hierarchical classification scheme.
 ## [What are Analysis Ready Data?](https://force-eo.readthedocs.io/en/latest/howto/l2-ard.html#what-are-analysis-ready-data "Permalink to this heading")
 
  ARD are readily usable for any application without much further processing. Such data need to be well corrected for:
+ 
  + Atmospheric and other effects
  
- + Have undergone a very good and aggressive cloud screening, are accompanied by pixel-based quality indicators (cloud masks but also other criteria), and are provided in a regular non-overlapping grid system without any redundancy in a single coordinate system (at least on the continental scale) in the form of data cubes.
+ + Have undergone a very good and aggressive cloud screening
+ 
+ + Are accompanied by pixel-based quality indicators (cloud masks but also other criteria)
+ 
+ + Provided in a regular non-overlapping grid system without any redundancy in a single coordinate system (at least on the continental scale) in the form of data cubes.
 
 ## The datacube
 
