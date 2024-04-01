@@ -124,7 +124,10 @@ force-level1-csd catalog downloaded_data downloaded_data/queue.txt long/lat
 
 #### Saving metadata
 
+The metadata can be very helpful when creating statistics and visualizations about data availability over time, cloud cover distribution over time, data volume (e.g., per sensor or year), etc. Using the `-k | --keep-meta` option will save the results of the current query to the Level 1 datapool folder under the file name
+
 
 ```bash
-
+# Download data
+force-level1-csd -k catalog downloaded_data downloaded_data/queue.txt long/lat 
 ```
