@@ -72,7 +72,7 @@ devtools::run_examples()
 ```
 
 ```r
-devtools::
+devtools::test_coverage()
 ```
 
 ```r
