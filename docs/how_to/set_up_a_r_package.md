@@ -71,6 +71,9 @@ devtools:::test(fresh=TRUE)
 devtools::run_examples()
 ```
 
+```r
+devtools::
+```
 
 ```r
 check()
