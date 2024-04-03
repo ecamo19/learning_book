@@ -68,6 +68,11 @@ devtools:::test(fresh=TRUE)
 ```
 
 ```r
+devtools::run_examples()
+```
+
+
+```r
 check()
 ```
 
