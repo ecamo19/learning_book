@@ -28,8 +28,7 @@ use_readme_md()
 ```
 
 ```R
-roxygen2::roxygenise()
-```
+z```
 
 ```R
 usethis::use_data()
