@@ -132,7 +132,8 @@ force-level1-csd -n catalog downloaded_data downloaded_data/queue.txt long/lat
 # Download data
 force-level1-csd catalog downloaded_data downloaded_data/queue.txt long/lat 
 
-# Example force-level1-sentinel2 /data/Dagobah/S2L1C /data/Dagobah/S2L1C/zambia.txt "25.43/-12.46,25.94/-12.46,25.94/-11.98,25.39/-11.99,25.43/-12.46" 2019-07-01 2019-07-31 0 50 dry
+# Example 
+force-level1-sentinel2 downloaded_data downloaded_data/queue.txt"25.43/-12.46,25.94/-12.46,25.94/-11.98,25.39/-11.99,25.43/-12.46" 
 ```
 
 ![Example output](media/force_eo_level1_csd_example_output.png)
