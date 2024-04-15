@@ -111,6 +111,196 @@ force-level1-csd -u path/to/data
 ```bash 
 # Create a FORCE project. Save the following function as create_force_eo_project.sh
 
+#!/bin/bash
+
+# This bash function create the recomemded folder structure to store any files
+# related a force project. For more info go to
+# (https://force-eo.readthedocs.io/en/latest/howto/l2-ard.html)
+
+# Create flag for while loop
+flag=true
+
+# Check if force is installed -------------------------------------------------
+if ! command -v force &> /usr/local/bin/force; then
+
+echo 'FORCE not found. Make sure that is installed in /usr/local/bin/'
+
+echo 'Read https://force-eo.readthedocs.io/en/latest/setup/requirements.html for installation instructions'
+
+# Change flag to close while loop
+flag=false
+
+fi
+
+# Loop for creating folder structure ------------------------------------------
+
+while $flag; do
+
+  
+
+# Read user's input
+
+printf "\nPress CTRL+D or enter q for quitting the program."
+
+printf "\nEnter a name for your force project.\n"
+
+read force_dir
+
+  
+
+# Exit if letter q is entered
+
+if [ "$force_dir" == "q" ]; then
+
+  
+
+# Change flag to close while loop
+
+flag=false
+
+  
+
+# Print message
+
+echo "Program closed"
+
+  
+
+# Check if folder exist
+
+elif [ -d "$force_dir" ]; then
+
+  
+
+# Print message
+
+printf "\nFolder called "$force_dir" already exist. Choose another name.\n"
+
+  
+
+# Create folder structure if force_dir is not AND does not exist
+
+elif ! { [ "$force_dir" == "quit" ] && [ -d "$force_dir" ]; }; then
+
+  
+
+# Create main directory
+
+mkdir $force_dir
+
+  
+
+# Create subdirectories at $force_dir
+
+  
+
+# Folder for saving the param file
+
+mkdir -p "$force_dir/data/catalogue"
+
+  
+
+# Folder for saving the param file
+
+mkdir -p "$force_dir/data/force/param"
+
+  
+
+# The queue.txt files is saved here
+
+mkdir -p "$force_dir/data/force/level_1"
+
+  
+
+# Folder for saving the log file
+
+mkdir -p "$force_dir/data/force/log"
+
+  
+
+# Folder for temporarily unpacking zip/tar.gz containers
+
+mkdir -p "$force_dir/data/force/temp"
+
+  
+
+# Folder for saving the output
+
+mkdir -p "$force_dir/data/force/level_2"
+
+  
+
+# Folder for saving the Digital Elevation Model (DEM)
+
+mkdir -p "$force_dir/data/force/misc/dem"
+
+  
+
+# Folder for saving the Water Vapor Database for water vapor correction
+
+mkdir -p "$force_dir/data/force/misc/wvdb"
+
+  
+
+mkdir -p "$force_dir/data/force/provenance"
+
+  
+
+# Add empty parameter file
+
+force-parameter "$force_dir/data/force/param/l2ps.prm" LEVEL2
+
+  
+
+# Download catalog
+
+printf "\nDownloading FORCE catalogue\n"
+
+  
+
+force-level1-csd -u "$force_dir/data/catalogue"
+
+  
+
+# Print message
+
+printf "\nSuccess! FORCE project named "$force_dir" created at: $PWD\n"
+
+  
+
+# Change flag to close while loop
+
+flag=false
+
+  
+
+# Break code if unknown condition is met
+
+else
+
+  
+
+# Print message
+
+echo "Failed creating folder structure"
+
+  
+
+# Break code
+
+break
+
+  
+
+# Close if-else
+
+fi
+
+  
+
+# Close while loop
+
+done
 
 
 
