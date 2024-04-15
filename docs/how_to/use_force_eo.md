@@ -215,18 +215,16 @@ while $flag; do
 
 	# Close if-else
 	fi
-
-  
-
+	
 # Close while loop
-
 done
-
-
-
-
 ```
 
+```bash
+
+# Create a FORCE project
+bash 
+```
 #### Querying and downloading data 
 
 ```bash
