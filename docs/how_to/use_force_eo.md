@@ -123,44 +123,31 @@ flag=true
 # Check if force is installed -------------------------------------------------
 if ! command -v force &> /usr/local/bin/force; then
 
-echo 'FORCE not found. Make sure that is installed in /usr/local/bin/'
+	echo 'FORCE not found. Make sure that is installed in /usr/local/bin/'
 
-echo 'Read https://force-eo.readthedocs.io/en/latest/setup/requirements.html for installation instructions'
+	echo 'Read https://force-eo.readthedocs.io/en/latest/setup/requirements.html for installation instructions'
 
-# Change flag to close while loop
-flag=false
-
+	# Change flag to close while loop
+	flag=false
 fi
 
 # Loop for creating folder structure ------------------------------------------
-
 while $flag; do
 
-  
+	# Read user's input
+	printf "\nPress CTRL+D or enter q for quitting the program."
 
-# Read user's input
+	printf "\nEnter a name for your force project.\n"
 
-printf "\nPress CTRL+D or enter q for quitting the program."
+	read force_dir
 
-printf "\nEnter a name for your force project.\n"
+	# Exit if letter q is entered
+	if [ "$force_dir" == "q" ]; then
 
-read force_dir
-
-  
-
-# Exit if letter q is entered
-
-if [ "$force_dir" == "q" ]; then
-
-  
-
-# Change flag to close while loop
-
-flag=false
-
-  
-
-# Print message
+	# Change flag to close while loop
+		flag=false
+		
+	# Print message
 
 echo "Program closed"
 
