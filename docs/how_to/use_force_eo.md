@@ -182,47 +182,27 @@ while $flag; do
 		# Folder for saving the output
 		mkdir -p "$force_dir/data/force/level_2"
 
-  
+		# Folder for saving the Digital Elevation Model (DEM)
+		mkdir -p "$force_dir/data/force/misc/dem"
 
-# Folder for saving the Digital Elevation Model (DEM)
+		# Folder for saving the Water Vapor Database for water vapor correction
+		mkdir -p "$force_dir/data/force/misc/wvdb"
 
-mkdir -p "$force_dir/data/force/misc/dem"
+		mkdir -p "$force_dir/data/force/provenance"
 
-  
+		# Add empty parameter file
+		force-parameter "$force_dir/data/force/param/l2ps.prm" LEVEL2
 
-# Folder for saving the Water Vapor Database for water vapor correction
 
-mkdir -p "$force_dir/data/force/misc/wvdb"
+		# Download catalogue
+		printf "\nDownloading FORCE catalogue\n"
 
-  
+		force-level1-csd -u "$force_dir/data/catalogue"
 
-mkdir -p "$force_dir/data/force/provenance"
+		# Print message
+		printf "\nSuccess! FORCE project named "$force_dir" created at: $PWD\n"
 
-  
-
-# Add empty parameter file
-
-force-parameter "$force_dir/data/force/param/l2ps.prm" LEVEL2
-
-  
-
-# Download catalog
-
-printf "\nDownloading FORCE catalogue\n"
-
-  
-
-force-level1-csd -u "$force_dir/data/catalogue"
-
-  
-
-# Print message
-
-printf "\nSuccess! FORCE project named "$force_dir" created at: $PWD\n"
-
-  
-
-# Change flag to close while loop
+			# Change flag to close while loop
 
 flag=false
 
