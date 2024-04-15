@@ -116,7 +116,7 @@ mkdir catalog
 # Download catalog 
 force-level1-csd -u catalog
 
-# Pay attention!!. This will return an error
+# Pay attention!!! This will return an error
 force-level1-csd -u /catalog
 ```
 
