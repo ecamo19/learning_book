@@ -172,7 +172,7 @@ Download the metadata catalogues:
 
 ```bash
 # Download metadata catalogues as a first step
-force-level1-csd -u path/to/data
+force-level1-csd -u path/to/catalogue
 ```
 
 #### Parameterization
