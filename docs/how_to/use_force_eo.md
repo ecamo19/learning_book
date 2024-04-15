@@ -254,7 +254,8 @@ force-level1-csd -n catalog downloaded_data downloaded_data/queue.txt long/lat
 # Download data
 force-level1-csd catalog downloaded_data downloaded_data/queue.txt long/lat 
 
-# Example. PAY attention the f
+# Example. PAY attention the for a AOI of 4 corners 5 coordinates should be 
+# provided and the FIRST one 
 force-level1-sentinel2 downloaded_data downloaded_data/queue.txt "25.43/-12.46, 25.94/-12.46, 25.94/-11.98, 25.39/-11.99, 25.43/-12.46" 
 ```
 
