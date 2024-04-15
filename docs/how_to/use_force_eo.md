@@ -169,6 +169,8 @@ For Sentinel-2, two additional options are implemented:
 
 ### Folder structure
 
+
+
 ```bash
 mkdir /data/force/level1
 mkdir /data/force/level2
