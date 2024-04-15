@@ -159,46 +159,28 @@ while $flag; do
 	# Create folder structure if force_dir is not AND does not exist
 	elif ! { [ "$force_dir" == "quit" ] && [ -d "$force_dir" ]; }; then
 
-	# Create main directory
-	mkdir $force_dir
+		# Create main directory
+		mkdir $force_dir
 
-	# Create subdirectories at $force_dir
+		# Create subdirectories at $force_dir
 
-  
+		# Folder for saving the param file
+		mkdir -p "$force_dir/data/catalogue"
 
-# Folder for saving the param file
+		# Folder for saving the param file
+		mkdir -p "$force_dir/data/force/param"
 
-mkdir -p "$force_dir/data/catalogue"
+		# The queue.txt files is saved here
+		mkdir -p "$force_dir/data/force/level_1"
 
-  
+		# Folder for saving the log file
+		mkdir -p "$force_dir/data/force/log"
 
-# Folder for saving the param file
+		# Folder for temporarily unpacking zip/tar.gz containers
+		mkdir -p "$force_dir/data/force/temp"
 
-mkdir -p "$force_dir/data/force/param"
-
-  
-
-# The queue.txt files is saved here
-
-mkdir -p "$force_dir/data/force/level_1"
-
-  
-
-# Folder for saving the log file
-
-mkdir -p "$force_dir/data/force/log"
-
-  
-
-# Folder for temporarily unpacking zip/tar.gz containers
-
-mkdir -p "$force_dir/data/force/temp"
-
-  
-
-# Folder for saving the output
-
-mkdir -p "$force_dir/data/force/level_2"
+		# Folder for saving the output
+		mkdir -p "$force_dir/data/force/level_2"
 
   
 
