@@ -109,7 +109,9 @@ force-level1-csd -u path/to/data
 
 
 ```bash 
-# Create a FORCE project. Save the following 
+# Create a FORCE project. Save the following function as create_force_eo_project.sh
+
+
 
 
 
