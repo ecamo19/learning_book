@@ -144,40 +144,25 @@ while $flag; do
 	# Exit if letter q is entered
 	if [ "$force_dir" == "q" ]; then
 
-	# Change flag to close while loop
+		# Change flag to close while loop
 		flag=false
 		
-	# Print message
+		# Print message
+		echo "Program closed"
 
-echo "Program closed"
+	# Check if folder exist
+	elif [ -d "$force_dir" ]; then
 
-  
+		# Print message
+		printf "\nFolder called "$force_dir" already exist. Choose another name.\n"
 
-# Check if folder exist
+	# Create folder structure if force_dir is not AND does not exist
+	elif ! { [ "$force_dir" == "quit" ] && [ -d "$force_dir" ]; }; then
 
-elif [ -d "$force_dir" ]; then
+	# Create main directory
+	mkdir $force_dir
 
-  
-
-# Print message
-
-printf "\nFolder called "$force_dir" already exist. Choose another name.\n"
-
-  
-
-# Create folder structure if force_dir is not AND does not exist
-
-elif ! { [ "$force_dir" == "quit" ] && [ -d "$force_dir" ]; }; then
-
-  
-
-# Create main directory
-
-mkdir $force_dir
-
-  
-
-# Create subdirectories at $force_dir
+	# Create subdirectories at $force_dir
 
   
 
