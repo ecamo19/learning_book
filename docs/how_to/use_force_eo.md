@@ -202,33 +202,19 @@ while $flag; do
 		# Print message
 		printf "\nSuccess! FORCE project named "$force_dir" created at: $PWD\n"
 
-			# Change flag to close while loop
+		# Change flag to close while loop
+		flag=false
 
-flag=false
+	# Break code if unknown condition is met
+	else
+		# Print message
+		echo "Failed creating folder structure"
 
-  
+		# Break code
+		break
 
-# Break code if unknown condition is met
-
-else
-
-  
-
-# Print message
-
-echo "Failed creating folder structure"
-
-  
-
-# Break code
-
-break
-
-  
-
-# Close if-else
-
-fi
+	# Close if-else
+	fi
 
   
 
