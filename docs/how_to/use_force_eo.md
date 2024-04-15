@@ -254,7 +254,7 @@ force-level1-csd -n catalog downloaded_data downloaded_data/queue.txt long/lat
 # Download data
 force-level1-csd catalog downloaded_data downloaded_data/queue.txt long/lat 
 
-# Example 
+# Example. PAY attention the f
 force-level1-sentinel2 downloaded_data downloaded_data/queue.txt "25.43/-12.46, 25.94/-12.46, 25.94/-11.98, 25.39/-11.99, 25.43/-12.46" 
 ```
 
