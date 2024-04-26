@@ -4,7 +4,7 @@ This note was created following this [video](https://www.youtube.com/watch?v=Xjo
 ## Functions only used at the beginning of the package development
 
 ```r
-usethis::use_pipe()s
+usethis::use_pipe()
 ```
 
 ```r
