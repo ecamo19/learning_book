@@ -32,9 +32,6 @@ use_readme_md()
 ```
 
 ```R
-z```
-
-```R
 usethis::use_data()
 ```
 ## Functions used on a regular basis
