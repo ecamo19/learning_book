@@ -37,6 +37,11 @@ usethis::use_data()
 ## Functions used on a regular basis
 
 ```r
+# Change the version of the package
+usethis::use_version() 
+```
+
+```r
 use_r()
 ```
 
