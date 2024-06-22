@@ -117,7 +117,7 @@ int main() {
 	int result_2 = step_function(num_2);
 
 	int num_3 = -32767;
-	int result)_
+	int result_3 = step_function(num_3);
 	
 }
 ```
