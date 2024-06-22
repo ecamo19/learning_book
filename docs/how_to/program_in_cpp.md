@@ -63,16 +63,17 @@ return 0;
 
 ```cpp
 #include <cstdio>
+
 int main() {
-int x = 0;
 
-if (x > 0)
-	printf('x is Positive')
+int x = 2;
 
-else if (x < 0)
-	printf('x is negative')
+if (x > 0) printf("x is positive");
 
-else
-	print('x is 0')
+else if (x < 0) printf("x is negative");
+
+else printf("x is 0");
 }
 ```
+
+### Functions
