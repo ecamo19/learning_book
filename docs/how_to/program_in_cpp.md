@@ -79,22 +79,67 @@ else printf("x is 0");
 ### Functions
 
 ```cpp
+#include <iostream>
+#include <cstdio>
+
 int step_function(int x){
-	
-	// Create object for storing the result 
-	int result = 0
-	
-	if (x < 0){
-		result = -1;	
-	} 
-	else if (x > 0){
-	 result = 1;
+
+// Create object for storing the result
+
+int result = 0;
+
+if (x < 0){
+
+	result = -1;
 	}
 
-	else
-		result = 0;
+else if (x > 0){
 
-	return result
-	
+	result = 1;
+	}
+
+else
+
+	result = 0;
+
+return result;
+
+}
+
+  
+// Call the function
+int main() {
+
+int value1 = step_function(100); // value1 is 1
+
+printf("value1\n");
+
+std::cout << value1;
+
+printf("\n");
+
+  
+
+int value2 = step_function(0); // value2 is 0
+
+printf("value2\n");
+
+std::cout << value2;
+
+printf("\n");
+
+  
+
+int value3 = step_function(-10); // value3 is -1
+
+printf("value3\n");
+
+std::cout << value3;
+
+printf("\n");
+
+  
+  
+
 }
 ```
