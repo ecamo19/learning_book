@@ -77,3 +77,9 @@ else printf("x is 0");
 ```
 
 ### Functions
+
+```cpp
+int step_function(int x){
+	int result
+}
+```
