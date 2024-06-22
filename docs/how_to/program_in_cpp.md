@@ -64,6 +64,9 @@ return 0;
 ```cpp
 int main() {
 int x = 0;
+
+if
+
 42 == x; // Equality
 42 != x; // Inequality
 100 > x; // Greater than
