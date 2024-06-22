@@ -72,11 +72,6 @@ else if (x < 0)
 	printf('x is negative')
 
 else
-; // Equality
-; // Inequality
-100 > x; // Greater than
-123 >= x; // Greater than or equal to
--10 < x; // Less than
--99 <= x; // Less than or equal to
+	print('x is 0')
 }
 ```
