@@ -109,9 +109,15 @@ return result;
   
 // Call the function
 int main() {
+	
 	int num_1 = 42;
-	 int result_1 = step_function(num_1)
+	int result_1 = step_function(num_1);
 
-int
+	int num_2 = 0;
+	int result_2 = step_function(num_2);
+
+	int num_3 = -32767;
+	int result)_
+	
 }
 ```
