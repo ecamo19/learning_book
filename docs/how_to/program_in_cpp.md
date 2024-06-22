@@ -2,6 +2,11 @@
 ## Set a dev environment
 
 
+## Compile code online
+
++ https://wandbox.org/
++ https://www.godbolt.org
+
 
 ```cpp
 #include <cstdio>
@@ -16,11 +21,6 @@ int main(){
 # First compile
 g++ test_cpp.cpp -o test_cpp
 ```
-
-## Compile code online
-
-+ https://wandbox.org/
-+ https://www.godbolt.org
 
 Cpp has a single entry point called the main(). The entry point execute when the user runs the program.
 
