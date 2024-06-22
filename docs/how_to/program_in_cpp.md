@@ -62,6 +62,7 @@ return 0;
 ### Conditional statements
 
 ```cpp
+#include <cstdio>
 int main() {
 int x = 0;
 
