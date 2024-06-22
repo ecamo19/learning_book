@@ -84,6 +84,7 @@ else printf("x is 0");
 
 int step_function(int x){
 
+
 // Create object for storing the result
 
 int result = 0;
@@ -94,30 +95,51 @@ if (x < 0){
 	}
 
 else if (x > 0){
-
+	
 	result = 1;
 	}
-
+	
 else
 
 	result = 0;
-
+	
 return result;
 
 }
 
   
+  
+
 // Call the function
+
 int main() {
-	
-	int num_1 = 42;
-	int result_1 = step_function(num_1);
 
-	int num_2 = 0;
-	int result_2 = step_function(num_2);
+  
 
-	int num_3 = -32767;
-	int result_3 = step_function(num_3);
-	
+int num_1 = 42;
+
+int result_1 = step_function(num_1);
+
+printf("Num_1: %d, Step: %d\n", num_1, result_1);
+
+  
+
+int num_2 = 0;
+
+int result_2 = step_function(num_2);
+
+printf("Num_2: %d, Step: %d\n", num_2, result_2);
+
+  
+  
+
+int num_3 = -32767;
+
+int result_3 = step_function(num_3);
+
+printf("Num_3: %d, Step: %d\n", num_3, result_3);
+
+  
+
 }
 ```
