@@ -108,38 +108,32 @@ return result;
 }
 
   
-  
-
 // Call the function
 
 int main() {
 
-  
-
+// Result 1
 int num_1 = 42;
 
 int result_1 = step_function(num_1);
 
 printf("Num_1: %d, Step: %d\n", num_1, result_1);
 
-  
-
+// Result 2
 int num_2 = 0;
 
 int result_2 = step_function(num_2);
 
 printf("Num_2: %d, Step: %d\n", num_2, result_2);
 
-  
-  
 
+// Result 3
 int num_3 = -32767;
 
 int result_3 = step_function(num_3);
 
 printf("Num_3: %d, Step: %d\n", num_3, result_3);
 
-  
 
 }
 ```
