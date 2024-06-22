@@ -13,6 +13,7 @@ int main(){
 ```
 
 ```gcc
+# First compile
 g++ test_cpp.cpp -o test_cpp
 ```
 
