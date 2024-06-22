@@ -3,7 +3,6 @@
 
 
 
-
 ```cpp
 #include <cstdio>
 
@@ -12,3 +11,5 @@ int main(){
 	return 0
 }
 ```
+
+Cpp has a single entry point called the main()
