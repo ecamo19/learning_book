@@ -44,14 +44,13 @@ For example int is a type that can store whole numbers
 
 ```cpp
 #include <cstdio>
-
 #include <iostream>
 
 int main(){
 
 int number = 45/3;
 
-printf("Hello, world\n");
+printf("Returning division:\n");
 
 std::cout << number;
 
