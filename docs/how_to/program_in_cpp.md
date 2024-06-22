@@ -65,11 +65,13 @@ return 0;
 int main() {
 int x = 0;
 
-if (42 == x)
-	printf('x is 42')
+if (x > 0)
+	printf('x is Positive')
 
-else if (42 != x)
+else if (x < 0)
+	printf('x is negative')
 
+else
 ; // Equality
 ; // Inequality
 100 > x; // Greater than
