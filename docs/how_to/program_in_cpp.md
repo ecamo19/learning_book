@@ -31,3 +31,4 @@ The compiler tool chain is series of events that happen sequentially to turn sou
 1) Preprocessor: Performs basic source code manipulation.
 2) The compiler: Read a translation unit and generates an object file. Generates intermediate format called object code. '
 3) The linker: Generates programs from object files 
+
