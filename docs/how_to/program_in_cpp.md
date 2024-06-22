@@ -80,6 +80,13 @@ else printf("x is 0");
 
 ```cpp
 int step_function(int x){
-	int result
+	
+	// Create object for storing the result 
+	int result = 0
+	
+	if (x < 0){
+		re	
+	}
+	
 }
 ```
