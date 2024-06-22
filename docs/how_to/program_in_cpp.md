@@ -109,37 +109,9 @@ return result;
   
 // Call the function
 int main() {
+	int num_1 = 42;
+	 int result_1 = step_function(num_1)
 
-int value1 = step_function(100); // value1 is 1
-
-printf("value1\n");
-
-std::cout << value1;
-
-printf("\n");
-
-  
-
-int value2 = step_function(0); // value2 is 0
-
-printf("value2\n");
-
-std::cout << value2;
-
-printf("\n");
-
-  
-
-int value3 = step_function(-10); // value3 is -1
-
-printf("value3\n");
-
-std::cout << value3;
-
-printf("\n");
-
-  
-  
-
+int
 }
 ```
