@@ -40,3 +40,22 @@ C++ is a strongly typed language, meaning each object has a predefined data type
 For example int is a type that can store whole numbers
 
 ### Declaring variables
+
+
+```cpp
+#include <cstdio>
+
+#include <iostream>
+
+int main(){
+
+int number = 45/3;
+
+printf("Hello, world\n");
+
+std::cout << number;
+
+return 0;
+
+}
+```
