@@ -32,3 +32,6 @@ The compiler tool chain is series of events that happen sequentially to turn sou
 2) The compiler: Read a translation unit and generates an object file. Generates intermediate format called object code. '
 3) The linker: Generates programs from object files 
 
+## Cpp type system
+
+C++ is object oriented language. Think as a object with sp
