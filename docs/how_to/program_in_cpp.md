@@ -17,7 +17,10 @@ int main(){
 g++ test_cpp.cpp -o test_cpp
 ```
 
-Test cpp code https://wandbox.org/
+## Compile code online
+
++ https://wandbox.org/
++ https://www.godbolt.org
 
 Cpp has a single entry point called the main(). The entry point execute when the user runs the program.
 
