@@ -36,4 +36,4 @@ The compiler tool chain is series of events that happen sequentially to turn sou
 
 C++ is object oriented language. Think as a object with specific characteristic that define it. Like a dog or a light switch.
 
-A dog has 4 legs, barks and has furry tail. In this example the s 
+A dog has 4 legs, barks and has furry tail. In this example the collection of states (4 legs, barks and has furry tail) are called __type__  
