@@ -12,4 +12,6 @@ int main(){
 }
 ```
 
-Cpp has a single entry point called the main(). The entry point execute when the user runs the program
+Cpp has a single entry point called the main(). The entry point execute when the user runs the program.
+
+### The compiler tool chain
