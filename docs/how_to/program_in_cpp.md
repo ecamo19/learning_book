@@ -12,4 +12,4 @@ int main(){
 }
 ```
 
-Cpp has a single entry point called the main()
+Cpp has a single entry point called the main(). The entry point execute when the user runs the program
