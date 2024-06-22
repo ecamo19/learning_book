@@ -34,4 +34,6 @@ The compiler tool chain is series of events that happen sequentially to turn sou
 
 ## Cpp type system
 
-C++ is object oriented language. Think as a object with sp
+C++ is object oriented language. Think as a object with specific characteristic that define it. Like a dog or a light swittch.
+
+A dog has 4 legs 
