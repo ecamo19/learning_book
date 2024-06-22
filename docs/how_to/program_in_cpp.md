@@ -92,8 +92,9 @@ int step_function(int x){
 	}
 
 	else
-		res
+		result = 0;
 
+	return result
 	
 }
 ```
