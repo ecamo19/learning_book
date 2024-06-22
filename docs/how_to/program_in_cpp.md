@@ -1,7 +1,4 @@
 
-
-
-
 ## Compile code online
 
 + https://wandbox.org/
@@ -41,3 +38,5 @@ A dog has 4 legs, barks and has furry tail. In this example the collection of st
 C++ is a strongly typed language, meaning each object has a predefined data type. 
 
 For example int is a type that can store whole numbers
+
+### Declaring variables
