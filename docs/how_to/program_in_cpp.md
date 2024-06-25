@@ -134,6 +134,5 @@ int result_3 = step_function(num_3);
 
 printf("Num_3: %d, Step: %d\n", num_3, result_3);
 
-
 }
 ```
