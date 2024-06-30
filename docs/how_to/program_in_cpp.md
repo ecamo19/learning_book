@@ -82,8 +82,9 @@ else printf("x is 0");
 #include <iostream>
 #include <cstdio>
 
-int step_function(int x){
 
+// Create function --------------------------------------------------------------
+int step_function(int x){
 
 // Create object for storing the result
 
@@ -108,7 +109,7 @@ return result;
 }
 
   
-// Call the function
+// Call the function ------------------------------------------------------------
 
 int main() {
 
