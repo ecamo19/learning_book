@@ -145,4 +145,7 @@ printf("Num_3: %d, Step: %d\n", num_3, result_3);
 
 	![Integer types ](media/cpp_integer_types.png)
 
-+ Literal: Hardcoded value in a program 
++ Literal: Hardcoded value in a program.
+	+ Binary literal: Uses the prefix 0b
+	+ Octal literal : Uses the prefix 0
+	+ 
