@@ -142,4 +142,5 @@ printf("Num_3: %d, Step: %d\n", num_3, result_3);
 ### Fundamental types
 
 + Integer: Whole numbers that can be signed (variable that can be positive, negative or zero) or unsigned (variable that only can be positive ). Integers can be __short int__, __int__, __long int__ and __long long int__ 
-+ 
+
+	[./media/]
