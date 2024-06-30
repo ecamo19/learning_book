@@ -179,3 +179,5 @@ Cpp offers 3 levels of precision:
 + float
 + double
 +  long double 
+
++ Floating
