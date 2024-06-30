@@ -172,4 +172,10 @@ printf("%d", b)
 
 #### Floating-Point Types
 
-Represent all the real numbers (i.e. 0.333, 10.5). The more precision a floating point type has the more  
+Represent all the real numbers (i.e. 0.333, 10.5). The more precision a floating point type has the more accurate it will be at approximating a real number.
+
+Cpp offers 3 levels of precision:
+
++ float
++ double
++  long double 
