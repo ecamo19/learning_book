@@ -136,3 +136,5 @@ printf("Num_3: %d, Step: %d\n", num_3, result_3);
 
 }
 ```
+
+## Types
