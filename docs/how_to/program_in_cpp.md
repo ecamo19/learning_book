@@ -181,3 +181,5 @@ Cpp offers 3 levels of precision:
 +  long double 
 
 #### Floating point literals 
+
+Floating point literals are double precision.  
