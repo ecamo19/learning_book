@@ -170,4 +170,6 @@ printf("%d", b)
 
 ```
 
-+ Floating-Point Types
+#### Floating-Point Types
+
+Represent all theReal number 
