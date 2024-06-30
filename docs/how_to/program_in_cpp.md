@@ -172,4 +172,4 @@ printf("%d", b)
 
 #### Floating-Point Types
 
-Represent all theReal number 
+Represent all the real numbers (i.e. 0.333, 10.5). The more precision a floating point type has the more  
