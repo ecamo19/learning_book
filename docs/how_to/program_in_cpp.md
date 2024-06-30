@@ -182,4 +182,11 @@ Cpp offers 3 levels of precision:
 
 #### Floating point literals 
 
-Floating point literals are double precision.  
+Floating point literals are double precision by default
+
+```cpp
+float a = 0.1F;
+double b = 0.2;
+long double c = 0.3L
+
+```
