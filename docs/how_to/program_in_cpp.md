@@ -182,7 +182,7 @@ Cpp offers 3 levels of precision:
 
 #### Floating point literals 
 
-Floating point literals are double precision by default
+Floating point literals are double precision by default. I f you need single precision use f or F suffix or l or L for  extended precision.
 
 ```cpp
 float a = 0.1F;
