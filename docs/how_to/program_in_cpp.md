@@ -157,7 +157,10 @@ printf("Num_3: %d, Step: %d\n", num_3, result_3);
 
 int main(){
 unsigned short a = 0b10101010
-printf("%u\n",a)
+printf("%hu\n",a)
+
+int b = 0123
+print
 
 
 }
