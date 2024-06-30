@@ -153,6 +153,12 @@ printf("Num_3: %d, Step: %d\n", num_3, result_3);
 
 
 ```cpp
-# include
+#include <cstdio>
+
+int main(){
+unsigned short a = 0b10101010
+printf
+}
+
 
 ```
