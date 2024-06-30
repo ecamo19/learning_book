@@ -141,5 +141,5 @@ printf("Num_3: %d, Step: %d\n", num_3, result_3);
 ## Types
 ### Fundamental types
 
-+ Integer: 
++ Integer: Whole numbers that can be signed (variable that can be positive, negative or zero) or unsig 
 + 
