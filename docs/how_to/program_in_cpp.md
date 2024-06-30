@@ -148,4 +148,11 @@ printf("Num_3: %d, Step: %d\n", num_3, result_3);
 + Literal: Hardcoded value in a program.
 	+ Binary literal: Uses the prefix 0b
 	+ Octal literal : Uses the prefix 0
-	+ 
+	+ Decimal: Default
+	+ Hexadecimal: Uses the prefix 0x
+
+
+```cpp
+# include
+
+```
