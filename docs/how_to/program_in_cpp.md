@@ -196,6 +196,7 @@ long double c = 0.3L
 ```cpp
 #include <cstido>
 int main() {
-	double an = 
+	double an = 6.0221409e23;
+	printf("Avogradro's Number: %le %lf %lg )
 }
 ```
