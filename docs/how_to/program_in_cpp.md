@@ -193,7 +193,9 @@ long double c = 0.3L
 
 #### Floating-Point Format specifiers 
 
-+ %f displays a float wi
++ %f displays a float with decimal digits 
++ %e displays in scientific notation
++ %g 
 
 ```cpp
 #include <cstido>
