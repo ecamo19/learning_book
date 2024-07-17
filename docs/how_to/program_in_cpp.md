@@ -193,10 +193,13 @@ long double c = 0.3L
 
 #### Floating-Point Format specifiers 
 
++ %f displays a float wi
+
 ```cpp
 #include <cstido>
 int main() {
 	double an = 6.0221409e23;
-	printf("Avogradro's Number: %le %lf %lg )
+	printf("Avogradro's Number: %le %lf %lg \n", an, an, an);
+	float hp = 9.75;
 }
 ```
