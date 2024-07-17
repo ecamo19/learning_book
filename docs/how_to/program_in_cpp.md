@@ -193,10 +193,3 @@ long double c = 0.3L
 
 #### Floating-Point Format specifiers 
 
-```
-test2
-```
-
-```
-test3
-```
