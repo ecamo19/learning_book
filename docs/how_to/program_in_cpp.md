@@ -195,7 +195,7 @@ long double c = 0.3L
 
 + %f displays a float with decimal digits 
 + %e displays in scientific notation
-+ %g 
++ %g chooses the most compact version between %e or %f
 
 ```cpp
 #include <cstido>
