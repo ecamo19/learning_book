@@ -141,7 +141,6 @@ printf("Num_3: %d, Step: %d\n", num_3, result_3);
 ## Types
 ### Fundamental types
 #### Integer
-
  
  Whole numbers that can be signed (variable that can be positive, negative or zero) or unsigned (variable that only can be positive ). Integers can be __short int__, __int__, __long int__ and __long long int__ 
 
@@ -166,7 +165,6 @@ printf("%d", b)
 
 
 }
-
 
 ```
 
@@ -205,3 +203,51 @@ int main() {
 	float hp = 9.75;
 }
 ```
+
+#### Character types
+
++ char 
++ char16_t: 2-byte character sets
++ char32_t: 4-byte character sets
++ signed char
++ unsigned char 
++ wchart_t
+
+![Escape sequences](media/cpp_escape_sequences.png)
+
+### Comparison operators
+
+```cpp
+#include <cstdio>
+
+int main() {
+printf(" 7==7: %d\n", 7 == 7);
+printf(" 7!=7: %d\n", 7 != 7);
+printf(" 10 > 20: %d\n", 10 > 20);
+printf(" 10 >= 20: %d\n", 10 >= 20);
+printf(" 10 < 20: %d\n", 10 < 20);
+printf(" 20 <= 20: %d\n", 20 <= 20);
+}
+```
+
+
+#### Logical operators
++ Unary operator: takes a single operand for example !true returns false
++ Binary operator: takes a two operands
++ Negation !
++ AND &&
++ OR ||
+
+```cpp
+int main(){
+	bool t = true;
+	bool f = false;
+
+	printf("!true: %d\n", !t);
+	printf("true && false: %d\n", t && f);
+	printf("true && !false: %d\n", t && !f);
+	printf("true || false: %d\n", t || f);
+}
+```
+
+#### The std::byte Type pp 40
