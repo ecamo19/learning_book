@@ -1,4 +1,4 @@
-This note was created following this [video](https://www.youtube.com/watch?v=XjolVT16YNw)
+sThis note was created following this [video](https://www.youtube.com/watch?v=XjolVT16YNw)
 
 
 ## Functions only used at the beginning of the package development
@@ -43,6 +43,11 @@ usethis::use_version()
 
 ```r
 use_r()
+```
+
+```r
+# Ignore files that rpackage don't need
+use_build_ignore(c("./pixi.lock"))
 ```
 
 Create a test file that will be stored testthat folder. Use the same name as the one used in the R script. The function will automatically add _test-_ to the file name 
